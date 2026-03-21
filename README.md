@@ -42,3 +42,53 @@ You simply talk to The Last PM right inside your IDE. You state your strategic b
 • Launch Risk Pre-Mortems: When facing launch anxiety, the OS hunts down the fatal execution risks (the Tigers and Elephants) before they break your app.
 
 You supply the product sense. The AI OS provides the leverage. You build the right thing.
+
+
+⚙️ How to Install & Run The OS
+
+The Last PM is not a traditional software app you install. It is a file system and a set of strict architectural prompts that live directly where you work.
+
+Prerequisites: You need either Cursor IDE (Highly Recommended for autonomous file writing) or Claude (via Claude Projects).
+
+Option A: Running in Cursor (The Native Experience)
+
+Cursor allows The Last PM to physically read your context, fetch agents, and write Markdown files directly to your local drive.
+
+1. Get the OS: Clone this repository or download it as a ZIP file.
+
+2. Open your Vault: Open the downloaded repository folder directly in Cursor.
+
+3. Set the Rules (Optional but Recommended): For a seamless experience, you can copy the contents of LastPM.md and paste them into your .cursorrules file. This makes the OS always active in the background.
+
+4. Initiate the Orchestrator: Open the Cursor Chat (Cmd + L), explicitly tag the Orchestrator, and state your problem.
+
+• Example: `@LastPM.md I need to do a trade-off call between building the new onboarding flow vs. fixing tech debt. Walk me through it.
+
+Option B: Running in Claude (Web/Desktop)
+
+If you don't use an IDE, you can run the OS using Claude's "Projects" feature, which acts as the system's memory.
+
+1. Create the Environment: Open Claude and create a new Project (e.g., "Product Vault").
+
+2. Upload the Brain: Upload the agent_registry.md and the entire /04_Agents/ folder into the Project Knowledge base.
+
+3. Set the Identity: Open LastPM.md, copy all the text, and paste it into the "Custom Instructions" box for your Claude Project.
+
+4. Start Building: Open a new chat inside the project and talk to your Chief of Staff.
+
+• Note: Because Claude Web cannot physically write files to your computer, it will output the final Markdown in the chat for you to copy/paste into your own notes.
+
+🛠️ The Daily Workflow
+
+You do not need to memorize the 50 agents. You only need to talk to the Orchestrator.
+
+1. The Prompt: Ask a strategic question (@LastPM.md Should we build this feature?).
+
+2. The Gatekeeper: The OS will stop you from guessing, silently read the agent_registry.md, and select the perfect mental model.
+
+3. The Interview: The OS will ask you for specific context (or ask you to attach a PRD/Transcript).
+
+4. The Execution: The OS runs the agent, analyzes the data, and writes the final strategic document directly into your 02_The_10_Layers/ folder.
+
+5. The Memory: It automatically logs the decision so your Vault never loses context
+

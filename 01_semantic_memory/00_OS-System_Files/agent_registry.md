@@ -6,7 +6,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `roger_martin_strategic_cascade.md` |
+| **Agent Name** | `strategy_choice_cascade_mapper.md` |
 | **Layer** | Layer 1: Corporate & Product Strategy |
 | **Description** | Forces the PM to define the 5 choices: Winning Aspiration, Where to Play, How to Win, Capabilities, and Management Systems. |
 | **Purpose** | To force the user to define five interconnected, logically rigorous choices that dictate how the product will actually win in the market. |
@@ -18,7 +18,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `gibson-biddle-dhm-evaluator.md` |
+| **Agent Name** | `dhm_strategy_evaluator.md` |
 | **Layer** | Layer 1: Corporate & Product Strategy |
 | **Description** | Critiques a product strategy based strictly on DHM: Does it Delight customers? Is it Hard to copy? Does it enhance Margin? |
 | **Purpose** | Critiques a product strategy strictly on its ability to drive immense customer value, build structural moats, and generate sustainable profit. |
@@ -30,7 +30,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `gibson-biddle-glee-vision-mapper.md` |
+| **Agent Name** | `phased_vision_mapper.md` |
 | **Layer** | Layer 1: Corporate & Product Strategy |
 | **Description** | Maps the 3-5 year vision into: Get Big, Lead, Expand. |
 | **Purpose** | Map raw product ambition into a chronologically sequenced 3-5 year strategic vision. |
@@ -42,7 +42,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `rumelt_strategy_kernel.md` |
+| **Agent Name** | `strategy_kernel_architect.md` |
 | **Layer** | Layer 1: Corporate & Product Strategy |
 | **Description** | Rejects "fluff" goals. Forces a Diagnosis, Guiding Policy, and Coherent Actions. |
 | **Purpose** | Distill vague goals and feature lists into a decisive strategy kernel that directly addresses a specific challenge. |
@@ -54,7 +54,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `helmer_7_powers_moat_analyzer.md` |
+| **Agent Name** | `competitive_moat_analyzer.md` |
 | **Layer** | Layer 1: Corporate & Product Strategy |
 | **Description** | Evaluates which of the 7 powers (Scale Economies, Network Economies, Counter-Positioning, Switching Costs, Branding, Cornered Resource, Process Power) the new feature actually builds. |
 | **Purpose** | To rigorously evaluate if and how a proposed feature creates a defensible competitive moat. |
@@ -66,7 +66,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `casey_winters_scaling_evaluator.md` |
+| **Agent Name** | `scaling_readiness_evaluator.md` |
 | **Layer** | Layer 1: Corporate & Product Strategy |
 | **Description** | Analyzes if a product is ready to scale or if it's still in the "do things that don't scale" phase. |
 | **Purpose** | Evaluate if a product has the necessary retention and loop dynamics to transition from "doing things that don't scale" to systematic scaling. |
@@ -80,7 +80,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `madhavan_wtp_survey_designer.md` |
+| **Agent Name** | `wtp_survey_designer.md` |
 | **Layer** | Layer 2: Monetization & Pricing |
 | **Description** | Designs a "Willingness to Pay" survey using the Van Westendorp Price Sensitivity Meter. |
 | **Purpose** | Designs a precise Willingness to Pay (WTP) survey to validate pricing power before building. |
@@ -92,7 +92,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `madhavan_feature_shock_preventer.md` |
+| **Agent Name** | `feature_monetization_classifier.md` |
 | **Layer** | Layer 2: Monetization & Pricing |
 | **Description** | Classifies proposed features into Leaders, Fillers, and Killers to prevent bloated, un-monetizable products. |
 | **Purpose** | Classify proposed features based on willingness-to-pay to prevent un-monetizable product bloat. |
@@ -104,7 +104,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `good_better_best_architect.md` |
+| **Agent Name** | `tiering_strategy_architect.md` |
 | **Layer** | Layer 2: Monetization & Pricing |
 | **Description** | Structures SaaS tiering based on distinct customer segments and value fences. |
 | **Purpose** | Structures SaaS tiering based on distinct customer segments and value fences. |
@@ -116,7 +116,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `verna_monetization_modeler.md` |
+| **Agent Name** | `plg_slg_hybrid_modeler.md` |
 | **Layer** | Layer 2: Monetization & Pricing |
 | **Description** | Maps out the transition or hybrid model between Product-Led Growth (PLG) and Sales-Led Growth (SLG). |
 | **Purpose** | Map out a cohesive, non-cannibalizing hybrid model between Product-Led Growth (PLG) and Sales-Led Growth (SLG). |
@@ -130,7 +130,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `mochary_aor_mapper.md` |
+| **Agent Name** | `aor_responsibility_mapper.md` |
 | **Layer** | Layer 3: Team, Staffing & Ops |
 | **Description** | Defines strict Areas of Responsibility (AORs) for the product team so there are no overlapping decisions. |
 | **Purpose** | To define strict, mutually exclusive Areas of Responsibility for a product team, ensuring zero overlapping decision-making. |
@@ -142,7 +142,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `cagan_empowered_team_audit.md` |
+| **Agent Name** | `empowered_team_auditor.md` |
 | **Layer** | Layer 3: Team, Staffing & Ops |
 | **Description** | Evaluates if the current staffing model is an "Empowered Product Team" (given problems to solve) or a "Feature Factory" (given backlogs to build). |
 | **Purpose** | Translate team operational gaps into a business-focused negotiation strategy to secure an outcome-driven (empowered) charter from leadership. |
@@ -154,7 +154,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `claire_hughes_johnson_cadence_builder.md` |
+| **Agent Name** | `operating_cadence_builder.md` |
 | **Layer** | Layer 3: Team, Staffing & Ops |
 | **Description** | Designs the operating rhythm (WBRs, MBRs, planning cycles) for the product org. |
 | **Purpose** | Designs a scalable, high-signal operating rhythm (WBRs, MBRs, planning cycles) tailored to your product organization's size and stage. |
@@ -166,7 +166,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `skelton_team_topologies_designer.md` |
+| **Agent Name** | `team_topology_designer.md` |
 | **Layer** | Layer 3: Team, Staffing & Ops |
 | **Description** | Analyzes eng/product org charts to define Stream-aligned, Complicated-subsystem, Platform, and Enabling teams. |
 | **Purpose** | Restructure product and engineering teams to optimize flow and minimize cognitive load. |
@@ -178,7 +178,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `rad_candor_feedback_prep.md` |
+| **Agent Name** | `candid_feedback_prep.md` |
 | **Layer** | Layer 3: Team, Staffing & Ops |
 | **Description** | Helps a PM draft difficult feedback for an engineering lead using the Care Personally / Challenge Directly matrix. |
 | **Purpose** | Help a PM structure difficult, direct feedback for an engineering lead by balancing caring personally with challenging directly. |
@@ -192,7 +192,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `torres_opportunity_solution_tree.md` |
+| **Agent Name** | `opportunity_solution_tree_mapper.md` |
 | **Layer** | Layer 4: Discovery & Psychology |
 | **Description** | Maps Outcomes -> Opportunities -> Solutions -> Tests. The AI flags any orphaned solutions. |
 | **Purpose** | To systematically map business outcomes to customer opportunities, solutions, and tests, ensuring no feature is built without a validated customer need. |
@@ -204,7 +204,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `moesta_jtbd_forces_mapper.md` |
+| **Agent Name** | `jtbd_forces_mapper.md` |
 | **Layer** | Layer 4: Discovery & Psychology |
 | **Description** | Maps customer interviews into the 4 Forces of Jobs to be Done: Push of the current situation, Pull of the new idea, Anxiety of the new, Inertia of the old. |
 | **Purpose** | Extract and map the emotional and functional drivers of a customer's switching decision from raw interview data. |
@@ -216,7 +216,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `fitzpatrick_mom_test_evaluator.md` |
+| **Agent Name** | `unbiased_interview_evaluator.md` |
 | **Layer** | Layer 4: Discovery & Psychology |
 | **Description** | Scans user interview transcripts and highlights "fluff" or leading questions the PM asked, providing corrected questions. |
 | **Purpose** | To objectively analyze user interview transcripts, identify leading or "fluff" questions, and rewrite them into past-behavior-focused inquiries. |
@@ -228,7 +228,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `vohra_pmf_engine.md` |
+| **Agent Name** | `hxc_pmf_engine.md` |
 | **Layer** | Layer 4: Discovery & Psychology |
 | **Description** | Analyzes "How disappointed would you be?" survey data to identify the High-Expectation Customer profile. |
 | **Purpose** | Analyzes "How disappointed would you be?" survey data to identify the High-Expectation Customer (HXC) profile and prioritize features. |
@@ -240,7 +240,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `wallaert_behavioral_intervention.md` |
+| **Agent Name** | `behavioral_friction_analyzer.md` |
 | **Layer** | Layer 4: Discovery & Psychology |
 | **Description** | Analyzes a user flow to identify Promoting Pressures (making it easier) vs Inhibiting Pressures (friction). |
 | **Purpose** | Analyze a user flow to identify forces making a target behavior easier (Promoting) and forces creating friction (Inhibiting). |
@@ -254,7 +254,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `balfour_growth_loop_architect.md` |
+| **Agent Name** | `growth_loop_architect.md` |
 | **Layer** | Layer 5: Growth & Loops |
 | **Description** | Forces the PM to design a self-sustaining loop (User -> Action -> Artifact -> New User) instead of a top-down funnel. |
 | **Purpose** | To transform a linear product feature or acquisition strategy into a self-sustaining, compounding growth loop. |
@@ -266,7 +266,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `mosavat_retention_curve_analyzer.md` |
+| **Agent Name** | `retention_curve_analyzer.md` |
 | **Layer** | Layer 5: Growth & Loops |
 | **Description** | Analyzes cohort data to determine if retention is flattening (PMF) or trending to zero. |
 | **Purpose** | Analyze cohort data to definitively determine if retention is flattening (proving PMF) or trending to zero. |
@@ -278,7 +278,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `bambu_activation_milestone_definer.md` |
+| **Agent Name** | `aha_moment_definer.md` |
 | **Layer** | Layer 5: Growth & Loops |
 | **Description** | Helps define the exact "Aha! moment" metrics (e.g., 7 friends in 10 days). |
 | **Purpose** | To pinpoint the exact, measurable "Aha! moment" that highly correlates with long-term retention. |
@@ -290,7 +290,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `fishman_growth_equation_builder.md` |
+| **Agent Name** | `growth_equation_builder.md` |
 | **Layer** | Layer 5: Growth & Loops |
 | **Description** | Maps the fundamental mathematical equation of the business's growth. |
 | **Purpose** | Maps the fundamental mathematical equation of the business's growth to isolate actionable input levers. |
@@ -302,7 +302,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `verna_b2b_viral_engine.md` |
+| **Agent Name** | `b2b_micro_loop_designer.md` |
 | **Layer** | Layer 5: Growth & Loops |
 | **Description** | Designs micro-loops for B2B SaaS (e.g., inviting a coworker to collaborate). |
 | **Purpose** | Design intrinsic B2B micro-loops to drive organic team expansion and user collaboration. |
@@ -316,7 +316,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `dunford_positioning_canvas.md` |
+| **Agent Name** | `differentiated_positioning_canvas.md` |
 | **Layer** | Layer 6: Positioning & Go-To-Market |
 | **Description** | Strict 5-step positioning: Competitive Alternative -> Unique Attributes -> Value -> Target Market -> Category. |
 | **Purpose** | To translate product capabilities into a strictly sequenced, differentiated market position. |
@@ -328,7 +328,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `moore_chasm_beachhead_mapper.md` |
+| **Agent Name** | `early_adopter_niche_mapper.md` |
 | **Layer** | Layer 6: Positioning & Go-To-Market |
 | **Description** | Identifies the exact "Bowling Alley" niche market required to cross the chasm from early adopters to the early majority. |
 | **Purpose** | Identifies the exact, highly specific niche market required to cross the chasm from early adopters to the early majority. |
@@ -340,7 +340,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `launchengco_b2b_buyer_persona.md` |
+| **Agent Name** | `b2b_buying_committee_mapper.md` |
 | **Layer** | Layer 6: Positioning & Go-To-Market |
 | **Description** | Differentiates between the User, the Champion, and the Economic Buyer in a B2B sale. |
 | **Purpose** | To dissect a target B2B market into distinct User, Champion, and Economic Buyer personas to sharpen product positioning and sales execution. |
@@ -366,7 +366,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `shreyas_lno_prioritizer.md` |
+| **Agent Name** | `lno_framework_prioritizer.md` |
 | **Layer** | Layer 7: Definition & Scoping |
 | **Description** | Categorizes roadmap items into Leverage (do it perfectly), Neutral (do it well), and Overhead (do it fast). |
 | **Purpose** | Categorize roadmap tasks into Leverage (do perfectly), Neutral (do well), and Overhead (do fast) to optimize effort and maximize impact. |
@@ -378,7 +378,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `singer_shape_up_pitch.md` |
+| **Agent Name** | `appetite_based_pitch_drafter.md` |
 | **Layer** | Layer 7: Definition & Scoping |
 | **Description** | Formats an idea into a Basecamp "Shape Up" pitch (Problem, Appetite, Solution, Rabbit Holes, No-Gos). |
 | **Purpose** | Transforms raw product ideas and user struggles into rigorously scoped, actionable Shape Up pitches. |
@@ -390,7 +390,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `olsen_opportunity_score.md` |
+| **Agent Name** | `opportunity_score_calculator.md` |
 | **Layer** | Layer 7: Definition & Scoping |
 | **Description** | Calculates the Opportunity Score = Importance + (Importance - Satisfaction). |
 | **Purpose** | Quantifies and ranks customer needs to expose high-value, underserved market opportunities. |
@@ -402,7 +402,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `cutler_kpi_tree_generator.md` |
+| **Agent Name** | `kpi_tree_generator.md` |
 | **Layer** | Layer 7: Definition & Scoping |
 | **Description** | Maps a single lagging North Star metric down to the specific leading behaviors the team can control. |
 | **Purpose** | Map a single lagging North Star metric down to the specific leading behaviors the team can control. |
@@ -414,7 +414,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `rachitsky_one_pager.md` |
+| **Agent Name** | `lean_one_pager_prd.md` |
 | **Layer** | Layer 7: Definition & Scoping |
 | **Description** | The ultra-lean PRD. Problem, Why now, Success, Audience, What. |
 | **Purpose** | Transform bloated product concepts into an ultra-lean, high-impact 1-page PRD. |
@@ -426,7 +426,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `duke_kill_criteria_setter.md` |
+| **Agent Name** | `kill_criteria_setter.md` |
 | **Layer** | Layer 7: Definition & Scoping |
 | **Description** | Forces the PM to define exactly what metrics or conditions will cause them to kill the feature before they even build it. |
 | **Purpose** | To define strict, observable conditions under which a product initiative must be killed or pivoted before development begins. |
@@ -440,7 +440,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `shreyas_pre_mortem_runner.md` |
+| **Agent Name** | `launch_risk_pre_mortem.md` |
 | **Layer** | Layer 8: Execution & Risk Management |
 | **Description** | Identifies Tigers, Paper Tigers, and Elephants before a launch. |
 | **Purpose** | Categorize project risks to identify existential threats, eliminate false alarms, and surface unspoken problems before a launch. |
@@ -452,7 +452,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `perri_product_kata.md` |
+| **Agent Name** | `next_experimental_step_mapper.md` |
 | **Layer** | Layer 8: Execution & Risk Management |
 | **Description** | Maps the next experimental step to reach a target condition. |
 | **Purpose** | Map the single next experimental step required to overcome the current biggest obstacle and reach a target condition. |
@@ -464,7 +464,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `bastow_now_next_later.md` |
+| **Agent Name** | `now_next_later_roadmap.md` |
 | **Layer** | Layer 8: Execution & Risk Management |
 | **Description** | Formats the roadmap away from hard timelines into Now, Next, Later buckets. |
 | **Purpose** | Transform date-driven feature lists into a strategic, outcome-focused roadmap categorized by certainty. |
@@ -476,7 +476,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `allspaw_blameless_post_mortem.md` |
+| **Agent Name** | `systemic_incident_reviewer.md` |
 | **Layer** | Layer 8: Execution & Risk Management |
 | **Description** | Structures an incident review focusing on systemic failures, not human error. |
 | **Purpose** | Structure an incident review focusing purely on systemic failures and conditions, eliminating human error from the equation. |
@@ -552,7 +552,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `shreyas_career_lno.md` |
+| **Agent Name** | `career_leverage_auditor.md` |
 | **Layer** | Layer 10: Leadership & Personal Craft |
 | **Description** | Applies the LNO framework to the PM's own calendar and tasks. |
 | **Purpose** | To audit a PM's calendar and task list to ruthlessly prioritize high-leverage work and minimize overhead. |
@@ -564,7 +564,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `evans_brag_document_builder.md` |
+| **Agent Name** | `impact_narrative_builder.md` |
 | **Layer** | Layer 10: Leadership & Personal Craft |
 | **Description** | Parses a PM's Git commits/Jira history to build a promotion case. |
 | **Purpose** | Synthesizes raw PM activity logs into a structured, impact-driven case for performance reviews and promotions. |
@@ -576,7 +576,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `fournier_manager_readme.md` |
+| **Agent Name** | `leadership_user_manual_drafter.md` |
 | **Layer** | Layer 10: Leadership & Personal Craft |
 | **Description** | Helps a new PM/Product Lead draft a "Working with me" document for their team. |
 | **Purpose** | Transform raw leadership notes into a practical, vulnerable "Working with me" document. |
@@ -588,7 +588,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `farnam_decision_journal_logger.md` |
+| **Agent Name** | `product_decision_record_logger.md` |
 | **Layer** | Layer 10: Leadership & Personal Craft |
 | **Description** | A template to log the context and assumptions of a major product decision, to be reviewed 6 months later. |
 | **Purpose** | To rigorously document the context, variables, and assumptions behind a major product decision to prevent outcome bias during future reviews. |
@@ -600,7 +600,7 @@
 
 | Field | Details |
 |---|---|
-| **Agent Name** | `time_audit_eisenhower.md` |
+| **Agent Name** | `eisenhower_time_audit.md` |
 | **Layer** | Layer 10: Leadership & Personal Craft |
 | **Description** | Analyzes the PM's weekly task list against the Urgent/Important matrix. |
 | **Purpose** | Ruthlessly categorize a PM's weekly task list to prioritize high-leverage work and eliminate, automate, or delegate the rest. |
@@ -626,53 +626,53 @@
 
 | # | Agent File | Layer | 
 |---|---|---|
-| 1 | `roger_martin_strategic_cascade.md` | 1 — Corporate & Product Strategy |
-| 2 | `gibson-biddle-dhm-evaluator.md` | 1 — Corporate & Product Strategy |
-| 3 | `gibson-biddle-glee-vision-mapper.md` | 1 — Corporate & Product Strategy |
-| 4 | `rumelt_strategy_kernel.md` | 1 — Corporate & Product Strategy |
-| 5 | `helmer_7_powers_moat_analyzer.md` | 1 — Corporate & Product Strategy |
-| 6 | `casey_winters_scaling_evaluator.md` | 1 — Corporate & Product Strategy |
-| 7 | `madhavan_wtp_survey_designer.md` | 2 — Monetization & Pricing |
-| 8 | `madhavan_feature_shock_preventer.md` | 2 — Monetization & Pricing |
-| 9 | `good_better_best_architect.md` | 2 — Monetization & Pricing |
-| 10 | `verna_monetization_modeler.md` | 2 — Monetization & Pricing |
-| 11 | `mochary_aor_mapper.md` | 3 — Team, Staffing & Ops |
-| 12 | `cagan_empowered_team_audit.md` | 3 — Team, Staffing & Ops |
-| 13 | `claire_hughes_johnson_cadence_builder.md` | 3 — Team, Staffing & Ops |
-| 14 | `skelton_team_topologies_designer.md` | 3 — Team, Staffing & Ops |
-| 15 | `rad_candor_feedback_prep.md` | 3 — Team, Staffing & Ops |
-| 16 | `torres_opportunity_solution_tree.md` | 4 — Discovery & Psychology | 
-| 17 | `moesta_jtbd_forces_mapper.md` | 4 — Discovery & Psychology | 
-| 18 | `fitzpatric_mom_test_evaluator.md` | 4 — Discovery & Psychology |
-| 19 | `vohra_pmf_engine.md` | 4 — Discovery & Psychology |
-| 20 | `wallaert_behavioral_intervention.md` | 4 — Discovery & Psychology |
-| 21 | `balfour_growth_loop_architect.md` | 5 — Growth & Loops |
-| 22 | `mosavat_retention_curve_analyzer.md` | 5 — Growth & Loops | 
-| 23 | `bambu_activation_milestone_definer.md` | 5 — Growth & Loops | 
-| 24 | `fishman_growth_equation_builder.md` | 5 — Growth & Loops | 
-| 25 | `verna_b2b_viral_engine.md` | 5 — Growth & Loops | 
-| 26 | `dunford_positioning_canvas.md` | 6 — Positioning & Go-To-Market | 
-| 27 | `moore_chasm_beachhead_mapper.md` | 6 — Positioning & Go-To-Market | 
-| 28 | `launchengco_b2b_buyer_persona.md` | 6 — Positioning & Go-To-Market | 
+| 1 | `strategy_choice_cascade_mapper.md` | 1 — Corporate & Product Strategy |
+| 2 | `dhm_strategy_evaluator.md` | 1 — Corporate & Product Strategy |
+| 3 | `phased_vision_mapper.md` | 1 — Corporate & Product Strategy |
+| 4 | `strategy_kernel_architect.md` | 1 — Corporate & Product Strategy |
+| 5 | `competitive_moat_analyzer.md` | 1 — Corporate & Product Strategy |
+| 6 | `scaling_readiness_evaluator.md` | 1 — Corporate & Product Strategy |
+| 7 | `wtp_survey_designer.md` | 2 — Monetization & Pricing |
+| 8 | `feature_monetization_classifier.md` | 2 — Monetization & Pricing |
+| 9 | `tiering_strategy_architect.md` | 2 — Monetization & Pricing |
+| 10 | `plg_slg_hybrid_modeler.md` | 2 — Monetization & Pricing |
+| 11 | `aor_responsibility_mapper.md` | 3 — Team, Staffing & Ops |
+| 12 | `empowered_team_auditor.md` | 3 — Team, Staffing & Ops |
+| 13 | `operating_cadence_builder.md` | 3 — Team, Staffing & Ops |
+| 14 | `team_topology_designer.md` | 3 — Team, Staffing & Ops |
+| 15 | `candid_feedback_prep.md` | 3 — Team, Staffing & Ops |
+| 16 | `opportunity_solution_tree_mapper.md` | 4 — Discovery & Psychology | 
+| 17 | `jtbd_forces_mapper.md` | 4 — Discovery & Psychology | 
+| 18 | `unbiased_interview_evaluator.md` | 4 — Discovery & Psychology |
+| 19 | `vhxc_pmf_engine.md` | 4 — Discovery & Psychology |
+| 20 | `behavioral_friction_analyzer.md` | 4 — Discovery & Psychology |
+| 21 | `growth_loop_architect.md` | 5 — Growth & Loops |
+| 22 | `retention_curve_analyzer.md` | 5 — Growth & Loops | 
+| 23 | `aha_moment_definer.md` | 5 — Growth & Loops | 
+| 24 | `growth_equation_builder.md` | 5 — Growth & Loops | 
+| 25 | `b2b_micro_loop_designer.md` | 5 — Growth & Loops | 
+| 26 | `differentiated_positioning_canvas.md` | 6 — Positioning & Go-To-Market | 
+| 27 | `early_adopter_niche_mapper.md` | 6 — Positioning & Go-To-Market | 
+| 28 | `b2b_buying_committee_mapper.md` | 6 — Positioning & Go-To-Market | 
 | 29 | `b2b_sales_enablement_drafter.md` | 6 — Positioning & Go-To-Market | 
-| 30 | `shreyas_lno_prioritizer.md` | 7 — Definition & Scoping | 
-| 31 | `singer_shape_up_pitch.md` | 7 — Definition & Scoping | 
-| 32 | `olsen_opportunity_score.md` | 7 — Definition & Scoping | 
-| 33 | `cutler_kpi_tree_generator.md` | 7 — Definition & Scoping | 
-| 34 | `rachitsky_one_pager.md` | 7 — Definition & Scoping | 
-| 35 | `duke_kill_criteria_setter.md` | 7 — Definition & Scoping | 
-| 36 | `shreyas_pre_mortem_runner.md` | 8 — Execution & Risk Management | 
-| 37 | `perri_product_kata.md` | 8 — Execution & Risk Management | 
-| 38 | `bastow_now_next_later.md` | 8 — Execution & Risk Management | 
-| 39 | `allspaw_blameless_post_mortem.md` | 8 — Execution & Risk Management | 
+| 30 | `lno_framework_prioritizer.md` | 7 — Definition & Scoping | 
+| 31 | `appetite_based_pitch_drafter.md` | 7 — Definition & Scoping | 
+| 32 | `opportunity_score_calculator.md` | 7 — Definition & Scoping | 
+| 33 | `kpi_tree_generator.md` | 7 — Definition & Scoping | 
+| 34 | `lean_one_pager_prd.md` | 7 — Definition & Scoping | 
+| 35 | `kill_criteria_setter.md` | 7 — Definition & Scoping | 
+| 36 | `launch_risk_pre_mortem.md` | 8 — Execution & Risk Management | 
+| 37 | `next_experimental_step_mapper.md` | 8 — Execution & Risk Management | 
+| 38 | `now_next_later_roadmap.md` | 8 — Execution & Risk Management | 
+| 39 | `systemic_incident_reviewer.md` | 8 — Execution & Risk Management | 
 | 40 | `eng_handoff_edge_case_generator.md` | 8 — Execution & Risk Management | 
 | 41 | `ai_build_vs_buy_matrix.md` | 9 — AI-Specific PM Craft | 
 | 42 | `llm_eval_metrics_definer.md` | 9 — AI-Specific PM Craft | 
 | 43 | `ai_ux_fallback_designer.md` | 9 — AI-Specific PM Craft | 
 | 44 | `data_flywheel_architect.md` | 9 — AI-Specific PM Craft | 
-| 45 | `shreyas_career_lno.md` | 10 — Leadership & Personal Craft | 
-| 46 | `evans_brag_document_builder.md` | 10 — Leadership & Personal Craft | 
-| 47 | `fournier_manager_readme.md` | 10 — Leadership & Personal Craft | 
-| 48 | `farnam_decision_journal_logger.md` | 10 — Leadership & Personal Craft | `
-| 49 | `time_audit_eisenhower.md` | 10 — Leadership & Personal Craft | 
+| 45 | `career_leverage_auditor.md` | 10 — Leadership & Personal Craft | 
+| 46 | `impact_narrative_builder.md` | 10 — Leadership & Personal Craft | 
+| 47 | `leadership_user_manual_drafter.md` | 10 — Leadership & Personal Craft | 
+| 48 | `product_decision_record_logger.md` | 10 — Leadership & Personal Craft | `
+| 49 | `eisenhower_time_audit.md` | 10 — Leadership & Personal Craft | 
 | 50 | `executive_update_summarizer.md` | 10 — Leadership & Personal Craft | 

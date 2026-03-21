@@ -90,5 +90,29 @@ You do not need to memorize the 50 agents. You only need to talk to the Orchestr
 
 4. The Execution: The OS runs the agent, analyzes the data, and writes the final strategic document directly into your 02_The_10_Layers/ folder.
 
-5. The Memory: It automatically logs the decision so your Vault never loses context
+5. The Memory: It automatically logs the decision so your Vault never loses context🔌 Fueling the Engine: Context & Live Data
+
+The OS is only as smart as the context you give it. To stop the AI from giving you generic, boilerplate advice, you must wire it into your specific product reality.
+
+1. The Static Brain (Initialize your Vault)
+
+Before you run your first agent, you need to define your playing field. The OS uses a dedicated semantic memory folder to understand your business model and constraints.
+• Navigate to 01_Semantic_Memory/.
+• Open and fill out the core templates: company.md, product.md, and audience.md.
+• Why this matters: Every time The Last PM runs a framework, it silently reads these files first. This ensures the pricing agent knows you are a B2B Enterprise SaaS (not a consumer app), and the strategy agent knows your current burn rate.
+
+2. The Live Brain (MCP Integrations)
+
+To unlock the absolute highest tier of autonomous product management, you need to connect the OS to your live tools using MCP (Model Context Protocol).
+
+Because you are running this in Cursor, you can natively attach MCP servers to let The Last PM pull live data directly into the frameworks:
+• Jira / Linear MCP: Connect your issue tracker. When you ask the OS to run a prioritization framework (like LNO or RICE), it can dynamically pull your current backlog, read the tickets, and re-rank them based on your current strategy.
+• Notion / Google Drive MCP: Connect your knowledge base. Instead of copy-pasting customer interviews, you can tell the Orchestrator: "Fetch the last 5 Gong transcripts from Notion and run the Jobs-to-be-Done (JTBD) agent to find the core adoption friction."
+• GitHub MCP: Connect your codebase. The OS can read PR velocity to understand true engineering constraints before proposing an aggressive Q3 roadmap.
+
+Note: You don't need MCP to use The Last PM—you can always just paste your PRDs or transcripts directly into the chat. But wiring up MCP turns the system from a consultant into a fully integrated Chief of Staff.
+
+
+
+
 

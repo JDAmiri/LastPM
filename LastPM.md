@@ -35,4 +35,5 @@ You MUST execute this exact sequence step-by-step. DO NOT skip to the answer.
 **PHASE 4: THE ADMINISTRATIVE SAVE (PHYSICAL TOOLS REQUIRED)**
 * **Action 1 (The Output):** You MUST use your file-writing tools to save the final generated framework `.md` file to the correct `/02_The_10_Layers/...` folder.
 * **Action 2 (The Memory):** You MUST use your file-writing tools to log this execution in `03_Episodic_Memory/02_Agent_Action_Logs/agent_choice_episodic_memory.md`.
-* **Action 3 (The PDR Check):** ONLY IF the agent's `<router_directives>` PDR_TRIGGER is True, ask the user: *"Should I physically log a Product Decision Record (PDR) for this?"* If they say yes, physically create the file using the `DECISION_template.md`.
+* * **Action 3 (The PDR Check):** ONLY IF the agent's `<router_directives>` PDR_TRIGGER is True, ask the user: *"Should I physically log a Product Decision Record (PDR) for this?"* If they say yes, physically create the file using the `DECISION_template.md`. 
+  - **STRICT NAMING RULE:** To prevent overwriting files on the same day, you MUST name the new PDR file using this exact format: `DECISION_[YYYY-MM-DD]_[2-4_Word_Topic_Slug].md` (Example: `DECISION_2026-03-21_Kill_Admin_Dashboard.md`).

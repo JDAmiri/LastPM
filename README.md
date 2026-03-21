@@ -1,6 +1,9 @@
 🚀 The Last PM: The Open-Source AI Operating System for Product Managers
+
 An autonomous AI Chief of Staff and multi-agent ecosystem running inside your IDE (Cursor/Claude) to automate PRDs, product strategy, and backlog prioritization.
+
 For the last decade, the role of the Product Manager has been degraded. PMs were originally meant to be problem-solvers who lived in the trenches with users. Instead, they became backlog administrators, ticket-writers, and alignment-bureaucrats.
+
 The Last PM is an open-source AI agent ecosystem designed to kill the bureaucratic Product Manager forever. Just as AI coding tools are becoming the "last developer" for boilerplate code, this repository is the last PM you will ever need for building product roadmaps, synthesizing qualitative data, and generating Product Requirements Documents (PRDs). It automates the administration of product development using LLM orchestration, freeing human builders to focus entirely on taste, empathy, and making the world a better place.
 
 ⚔️ The AI Paradigm Shift

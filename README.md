@@ -74,22 +74,21 @@ The Last PM is not a random folder of prompts. It is a strictly structured file 
 ┣ 📜 LastPM.md                       # The Orchestrator (Paste into .cursorrules or Claude)
 ┣ 📜 agent_registry.md               # The Directory of all 50+ specialized agents
 ┣ 📂 00_Inbox_and_Raw_Data           # Drop your raw transcripts, Jira exports, and notes here
-┃ ┗ 📜 .gitkeep
+┃ ┗ 📜 README.md
 ┣ 📂 01_Semantic_Memory              # The Static Brain (Fill these out on Day 1!)
 ┃ ┣ 📜 company.md                    # Business model, burn rate, core constraints
 ┃ ┣ 📜 product.md                    # Current capabilities, value props
-┃ ┗ 📜 audience.md                   # ICPs, personas, known friction
 ┣ 📂 02_The_10_Layers                # The Output Vault (AI generates PRDs, Roadmaps here)
-┃ ┗ 📜 _START_HERE.md                
+┃ ┗ 📜 README.md                
 ┣ 📂 03_Episodic_Memory              # The Long-Term Memory (So the AI never forgets)
 ┃ ┣ 📂 01_Decisions
 ┃ ┃ ┗ 📜 DECISION_template.md        # The PDR template the AI uses to log major pivots
 ┃ ┗ 📂 02_Agent_Action_Logs
 ┃   ┗ 📜 agent_choice_episodic_memory.md # The autonomous log of *why* an agent was used
 ┗ 📂 04_Agents                       # The Council of Titans (Your 50+ AI agents)
-  ┣ 📜 lno_framework_prioritizer.md
-  ┣ 📜 moesta_jtbd.md
-  ┣ 📜 dunford_positioning.md
+  ┣ 📜 aha_moment_definer.md
+  ┣ 📜 b2b_micro_loop_designer.md
+  ┣ 📜 candid_feedback_prep.md
   ┗ 📜 ... (and dozens more)
 
 ---

@@ -65,6 +65,35 @@ If you don't use an IDE, you can run the OS using Claude's "Projects" feature, w
 
 ---
 
+## 🗂️ The Vault Architecture
+
+The Last PM is not a random folder of prompts. It is a strictly structured file system designed to separate your raw data, your static business context, and the AI's episodic memory.
+
+```text
+📦 The-Last-PM
+┣ 📜 LastPM.md                       # The Orchestrator (Paste into .cursorrules or Claude)
+┣ 📜 agent_registry.md               # The Directory of all 50+ specialized agents
+┣ 📂 00_Inbox_and_Raw_Data           # Drop your raw transcripts, Jira exports, and notes here
+┃ ┗ 📜 .gitkeep
+┣ 📂 01_Semantic_Memory              # The Static Brain (Fill these out on Day 1!)
+┃ ┣ 📜 company.md                    # Business model, burn rate, core constraints
+┃ ┣ 📜 product.md                    # Current capabilities, value props
+┃ ┗ 📜 audience.md                   # ICPs, personas, known friction
+┣ 📂 02_The_10_Layers                # The Output Vault (AI generates PRDs, Roadmaps here)
+┃ ┗ 📜 _START_HERE.md                
+┣ 📂 03_Episodic_Memory              # The Long-Term Memory (So the AI never forgets)
+┃ ┣ 📂 01_Decisions
+┃ ┃ ┗ 📜 DECISION_template.md        # The PDR template the AI uses to log major pivots
+┃ ┗ 📂 02_Agent_Action_Logs
+┃   ┗ 📜 agent_choice_episodic_memory.md # The autonomous log of *why* an agent was used
+┗ 📂 04_Agents                       # The Council of Titans (Your 50+ AI agents)
+  ┣ 📜 lno_framework_prioritizer.md
+  ┣ 📜 moesta_jtbd.md
+  ┣ 📜 dunford_positioning.md
+  ┗ 📜 ... (and dozens more)
+
+---
+
 ## 🛠️ The Daily Workflow
 
 You do not need to memorize the 50 agents. You only need to talk to the Orchestrator.
@@ -84,7 +113,7 @@ The OS is only as smart as the context you give it. To stop the AI from giving y
 ### 🧠 1. The Static Brain (Initialize your Vault)
 Before you run your first agent, you need to define your playing field. The OS uses a dedicated semantic memory folder to understand your business model and constraints. 
 * **Navigate** to `01_Semantic_Memory/`. 
-* **Open and fill out** the core templates: `company.md`, `product.md`, and `audience.md`. 
+* **Open and fill out** the core templates: `company.md` and `product.md`. 
 * **Why this matters:** Every time The Last PM runs a framework, it silently reads these files first. This ensures the pricing agent knows you are a B2B Enterprise SaaS (not a consumer app), and the strategy agent knows your current burn rate.
 
 ### ⚡ 2. The Live Brain (MCP Integrations)

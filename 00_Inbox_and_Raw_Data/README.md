@@ -1,1 +1,1 @@
-drop your raw transcripts, initiatives, ideas and feature concept here.
+Drop raw transcripts, initiatives, ideas and feature concepts here.

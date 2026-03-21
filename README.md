@@ -10,17 +10,17 @@ The Last PM is an open-source AI agent ecosystem designed to kill the bureaucrat
 
 The Old Way (The Bureaucrat)
 
-Spends 3 days formatting a PRD.
-Argues with stakeholders over priority.
-Guesses why users aren't buying
-Manages the Jira board.
+- Spends 3 days formatting a PRD.
+- Argues with stakeholders over priority.
+- Guesses why users aren't buying
+- Manages the Jira board.
 
 The Last PM (The Full-Stack Builder)
 
-Tells the AI Orchestrator the goal; gets a fully structured, lean 1-pager in seconds.
-Lets the system mathematically rank the backlog using proven leverage and KPI tree frameworks.
-Feeds raw user interviews to the OS to extract psychological buying forces.
-Lives in the trenches, iterating prototypes based on real-world market pain.
+- Tells the AI Orchestrator the goal; gets a fully structured, lean 1-pager in seconds.
+- Lets the system mathematically rank the backlog using proven leverage and KPI tree frameworks.
+- Feeds raw user interviews to the OS to extract psychological buying forces.
+- Lives in the trenches, iterating prototypes based on real-world market pain.
 
 
 🧠 The Orchestrator & Your Council of Titans
@@ -32,9 +32,13 @@ You simply talk to The Last PM—your autonomous, elite Chief of Staff residing 
 Your Chief of Staff commands a directory of specialized agents, modeled after the public methodologies of the greatest product minds in the world. While you maintain the product vision, your background council handles the strategic execution:
 
 • The Strategic Choice Cascade (Inspired by Roger Martin): When you need a defensible Go-To-Market (GTM) strategy, the system forces you to define your exact playing field and how you will win.
+
 • Willingness-to-Pay (WTP) & Monetization (Inspired by Madhavan Ramanujam): When scoping a feature, the system designs your pricing model, SaaS tiers, and packaging before you write a single line of code.
+
 • Differentiated Product Positioning (Inspired by April Dunford): When the market doesn't "get" your product, the system reframes your context so your unique value proposition (UVP) becomes obvious.
+
 • Launch Risk Pre-Mortems (Inspired by Shreyas Doshi): When facing launch anxiety, the system hunts down the fatal risks (the Tigers and Elephants) before they break your application.
+
 • Jobs-to-Be-Done (JTBD) Forces (Inspired by Bob Moesta & Clayton Christensen): When growth stalls, the system decodes the psychological pushes, pulls, and anxieties driving user adoption.
 
 You act as the Director. The AI OS does the administration. You build the future.

@@ -1,1 +1,1 @@
-Note applied frameworks like OKRs, RICE, OGSM, etc. here.
+Note applied frameworks like OKR, RICE, OGSM, etc. here.

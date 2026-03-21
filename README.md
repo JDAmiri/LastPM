@@ -65,6 +65,19 @@ If you don't use an IDE, you can run the OS using Claude's "Projects" feature, w
 
 ---
 
+## ⚡ Model Selection & Token Economics
+You do not need to burn expensive premium tokens to run this OS.
+
+Because The Last PM relies on a highly constrained, step-by-step architectural algorithm rather than open-ended reasoning, it is exceptionally token-efficient. You do not need heavy-duty reasoning models for the daily workflow.
+
+The system runs flawlessly on lightning-fast, lightweight models (like Anthropic's Haiku 4.5).
+
+**The Benefit:** You get near-instant agent execution, zero hallucination loops, and you save your premium IDE requests for complex coding tasks. The architecture does the heavy lifting, not the model.
+
+---
+
+---
+
 ## 🗂️ The Vault Architecture
 
 The Last PM is not a random folder of prompts. It is a strictly structured file system designed to separate your raw data, your static business context, and the AI's episodic memory.

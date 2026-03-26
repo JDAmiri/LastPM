@@ -17,7 +17,7 @@ For the last decade, Product Management lost its way. PMs were meant to be produ
 | The Feature Factory PM | The High-Craft Builder (Using Last PM) |
 | :--- | :--- |
 | **Spends days wordsmithing alignment docs.** | Synthesizes complex strategy into sharp, Amazon-style 6-pagers in seconds. |
-| **Ships features to appease stakeholders.** | Uses the AI to mathematically stress-test roadmaps against actual business leverage. |
+| **Ships features to appease stakeholders.** | Uses the AI to mathematically stress-test roadmaps against actual business leverage (The "Great Taste" Matrix). |
 | **Drowns in unstructured customer feedback.** | Auto-extracts core user friction and monetization opportunities from raw transcripts. |
 | **Manages the Jira board.** | Lives in the trenches, iterating prototypes, and obsessing over product quality. |
 
@@ -58,7 +58,7 @@ Cursor allows The Last PM to physically read your context, fetch agents, and wri
 If you don't use an IDE, you can run the OS using Claude's "Projects" feature, which acts as the system's memory.
 
 1. **Create the Environment:** Open Claude and create a new Project (e.g., "Product Vault").
-2. **Upload the Brain:** Upload the `agent_registry.md` and the entire `/04_Agents/` folder into the Project Knowledge base.
+2. **Upload the Brain:** Upload the `agent_registry.md`, the `intent_dictionary.md`, and the entire `/04_Agents/` folder into the Project Knowledge base.
 3. **Set the Identity:** Open `LastPM.md`, copy all the text, and paste it into the "Custom Instructions" box for your Claude Project.
 4. **Start Building:** Open a new chat inside the project and talk to your Chief of Staff.
    * *Note: Because Claude Web cannot physically write files to your computer, it will output the final Markdown in the chat for you to copy/paste into your own notes.*
@@ -70,11 +70,9 @@ You do not need to burn expensive premium tokens to run this OS.
 
 Because The Last PM relies on a highly constrained, step-by-step architectural algorithm rather than open-ended reasoning, it is exceptionally token-efficient. You do not need heavy-duty reasoning models for the daily workflow.
 
-The system runs flawlessly on lightning-fast, lightweight models (like Anthropic's Haiku 4.5).
+The system runs flawlessly on lightning-fast, lightweight models (like Anthropic's Haiku 3.5 or Claude 3.5 Sonnet).
 
 **The Benefit:** You get near-instant agent execution, zero hallucination loops, and you save your premium IDE requests for complex coding tasks. The architecture does the heavy lifting, not the model.
-
----
 
 ---
 
@@ -116,15 +114,16 @@ The Last PM is not a random folder of prompts. It is a strictly structured file 
 ```
 ---
 
-## 🛠️ The Daily Workflow
+## 🛠️ The Daily Workflow (v2.0 "Great Taste" Matrix)
 
-You do not need to memorize the 50 agents. You only need to talk to the Orchestrator.
+You do not need to memorize the 50 agents. You only need to talk to the Orchestrator, which operates as a strict, deterministic state machine:
 
-1. **The Prompt:** Ask a strategic question (`@LastPM.md Should we build this feature?`).
-2. **The Gatekeeper:** The OS will stop you from guessing, silently read the `agent_registry.md`, and select the perfect mental model.
-3. **The Interview:** The OS will ask you for specific context (or ask you to attach a PRD/Transcript).
-4. **The Execution:** The OS runs the agent, analyzes the data, and writes the final strategic document directly into your `02_The_10_Layers/` folder.
-5. **The Memory:** It automatically logs the decision so your Vault never loses context.
+1. **The Pitch:** You state a strategic problem or pitch a feature (@LastPM.md We should build an AI chatbot).
+2. **The Gatekeeper:** The OS reads the intent_dictionary.md and scores your pitch mathematically from 0-10 on Delight, Defensibility, Distribution, Monetization, and Feasibility.
+3. **The Intervention:** If your idea scores a 2/10 on Defensibility (no moat), the OS blocks you from writing a PRD and automatically routes you to a strategy framework (like the Strategic Choice Cascade) to fix the flaw.
+4. **The Checkpoint:** After you provide inputs, the OS presents a brief, bulleted summary of its assumptions. You stay in control and must approve the direction before it writes any documents.
+5. **The Artifact:** The OS generates the perfectly formatted Markdown document and automatically saves it into the correct 02_Product_Documentation domain folder.
+6. **The Memory:** It prompts you to log a Product Decision Record (PDR) so the Vault never loses the "why" behind your pivot.
 
 ---
 
@@ -132,17 +131,24 @@ You do not need to memorize the 50 agents. You only need to talk to the Orchestr
 
 The OS is only as smart as the context you give it. To stop the AI from giving you generic, boilerplate advice, you must wire it into your specific product reality.
 
-### 🧠 1. The Static Brain (Initialize your Vault)
-Before you run your first agent, you need to define your playing field. The OS uses a dedicated semantic memory folder to understand your business model and constraints. 
-* **Navigate** to `01_Semantic_Memory/`. 
-* **Open and fill out** the core templates: `company.md` and `product.md`. 
+🧠 **The Static Brain (Initialize your Vault)**
+
+Before you run your first agent, you need to define your playing field. The OS uses a dedicated semantic memory folder to understand your business model and constraints.
+
+* **Navigate** to 01_Semantic_Memory/.
+* **Open and fill out** the core templates: company.md and product.md.
 * **Why this matters:** Every time The Last PM runs a framework, it silently reads these files first. This ensures the pricing agent knows you are a B2B Enterprise SaaS (not a consumer app), and the strategy agent knows your current burn rate.
 
-### ⚡ 2. The Live Brain (MCP Integrations)
+⚡ **The Live Brain (MCP Integrations)**
+
 To unlock the absolute highest tier of autonomous product management, you need to connect the OS to your live tools using **MCP (Model Context Protocol)**.
 
-Because you are running this in Cursor, you can natively attach MCP servers to let The Last PM pull live data directly into the frameworks: 
-* **Jira / Linear MCP:** Connect your issue tracker. When you ask the OS to run a prioritization framework (like LNO or RICE), it can dynamically pull your current backlog, read the tickets, and re-rank them based on your current strategy. 
-* **Notion / Google Drive MCP:** Connect your knowledge base. Instead of copy-pasting customer interviews, you can tell the Orchestrator: *"Fetch the last 5 Gong transcripts from Notion and run the Jobs-to-be-Done (JTBD) agent to find the core adoption friction."* * **GitHub MCP:** Connect your codebase. The OS can read PR velocity to understand true engineering constraints before proposing an aggressive Q3 roadmap.
+Because you are running this in Cursor, you can natively attach MCP servers to let The Last PM pull live data directly into the frameworks:
 
-> **Note:** You don't need MCP to use The Last PM—you can always just paste your PRDs or transcripts directly into the chat. But wiring up MCP turns the system from a consultant into a fully integrated Chief of Staff.
+* **Jira / Linear MCP:** Connect your issue tracker. When you ask the OS to run a prioritization framework (like LNO or RICE), it can dynamically pull your current backlog, read the tickets, and re-rank them based on your current strategy.
+* **Notion / Google Drive MCP:** Connect your knowledge base. Instead of copy-pasting customer interviews, you can tell the Orchestrator: "Fetch the last 5 Gong transcripts from Notion and run the Jobs-to-be-Done (JTBD) agent to find the core adoption friction."
+* **GitHub MCP:** Connect your codebase. The OS can read PR velocity to understand true engineering constraints before proposing an aggressive roadmap.
+
+```
+Note: You don't need MCP to use The Last PM — you can always just paste your PRDs or transcripts directly into the chat. But wiring up MCP turns the system from a consultant into a fully integrated Chief of Staff.
+```

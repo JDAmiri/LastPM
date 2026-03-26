@@ -84,21 +84,30 @@ The Last PM is not a random folder of prompts. It is a strictly structured file 
 
 ```text
 📦 The-Last-PM
-┣ 📜 LastPM.md                       # The Orchestrator (Paste into .cursorrules or Claude)
-┣ 📜 agent_registry.md               # The Directory of all 50+ specialized agents
-┣ 📂 00_Inbox_and_Raw_Data           # Drop your raw transcripts, Jira exports, and notes here
-┃ ┗ 📜 README.md
-┣ 📂 01_Semantic_Memory              # The Static Brain (Fill these out on Day 1!)
-┃ ┣ 📜 company.md                    # Business model, burn rate, core constraints
-┃ ┣ 📜 product.md                    # Current capabilities, value props
-┣ 📂 02_The_10_Layers                # The Output Vault (AI generates PRDs, Roadmaps here)
-┃ ┗ 📜 README.md                
-┣ 📂 03_Episodic_Memory              # The Long-Term Memory (So the AI never forgets)
-┃ ┣ 📂 01_Decisions
-┃ ┃ ┗ 📜 DECISION_template.md        # The PDR template the AI uses to log major pivots
-┃ ┗ 📂 02_Agent_Action_Logs
-┃   ┗ 📜 agent_choice_episodic_memory.md # The autonomous log of *why* an agent was used
-┗ 📂 04_Agents                       # The Council of Titans (Your 50+ AI agents)
+┣ 📜 LastPM.md                           # The Orchestrator (Paste into .cursorrules or Claude System Prompt)
+┣ 📂 00_Inbox_and_Raw_Data               # The AI drops your raw transcripts, Jira exports, and inputs here before execution
+┣ 📂 01_Semantic_Memory                  # The Static Brain & OS Routing Files
+┃ ┣ 📂 00_OS_System_Files                # The Operating System Core
+┃ ┃ ┣ 📜 agent_registry.md               # The Directory of all 50+ specialized agents and their required inputs
+┃ ┃ ┗ 📜 intent_dictionary.md            # The Deterministic Routing Map used by the Orchestrator
+┃ ┣ 📂 01_Company_Context                # company.md (Business model, burn rate, core constraints)
+┃ ┗ 📂 02_Product_Context                # product.md (Current capabilities, value props)
+┣ 📂 02_Product_Documentation            # The Output Vault (AI generates PRDs, Roadmaps here)
+┃ ┣ 📂 01_Corp_Strategy_and_Monetization # Mapped strictly to the 10 Domains of Great Taste
+┃ ┣ 📂 02_Discovery_and_User_Psychology  
+┃ ┣ 📂 03_Definition_Scoping_and_Prioritization
+┃ ┣ 📂 04_Execution_and_Risk_Management
+┃ ┣ 📂 05_Growth_Analytics_and_Data_Ops
+┃ ┣ 📂 06_Positioning_and_GTM
+┃ ┣ 📂 07_Team_Ops_and_Org_Design
+┃ ┣ 📂 08_Legal_Compliance_and_Security
+┃ ┣ 📂 09_AI_Product_Craft_and_Tech
+┃ ┣ 📂 10_Leadership_and_Personal_Craft
+┃ ┗ 📂 Initiatives                       # Specific feature scopes (e.g., /Feature_[Name]/)
+┣ 📂 03_Episodic_Memory                  # The Institutional Intelligence (Strategic Immune System)
+┃ ┗ 📂 01_Product_Decisions              # The AI reads these past PDRs before scoring to prevent repeating mistakes
+┃   ┗ 📜 DECISION_template.md            # The PDR template the AI uses to log major pivots and "killed" features
+┗ 📂 04_Agents                           # The Council of Titans (Your 50+ AI agents/frameworks)
   ┣ 📜 aha_moment_definer.md
   ┣ 📜 b2b_micro_loop_designer.md
   ┣ 📜 candid_feedback_prep.md

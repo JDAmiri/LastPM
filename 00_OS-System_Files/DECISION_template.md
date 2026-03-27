@@ -1,6 +1,6 @@
 ---
 document: product_decision_record
-date: 2026-03-27
+date: YYYY-MM-DD
 initiative: [Feature/Project Name or "Global"]
 decision_maker: [PM Name / Team]
 status: [Decided | Reverted | Validated]

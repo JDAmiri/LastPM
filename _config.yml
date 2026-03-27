@@ -1,10 +1,14 @@
-theme: jekyll-theme-cayman  # <--- Change this name to swap themes!
+theme: jekyll-theme-cayman
 title: The Last PM v3.0.0
 description: The Autonomous Product OS for Cursor & Claude.
 
+# We must be very strict with exclusions to stop Jekyll from parsing templates
 exclude:
-  - 00_OS_System_Files/
-  - 01_Global_Context/
-  - 02_Product_Workspace/
-  - 04_Agents/
-  - LastPM.md
+  - "00_OS_System_Files"
+  - "01_Global_Context"
+  - "02_Product_Workspace"
+  - "04_Agents"
+  - "LastPM.md"
+  - "vendor"
+  - "Gemfile"
+  - "Gemfile.lock"

@@ -46,84 +46,76 @@ The Last PM is not a traditional software app you install. It is a file system a
 **Prerequisites:** You need either **Cursor IDE** (Highly Recommended for autonomous file writing) or **Claude** (via Claude Projects).
 
 ### 💻 Option A: Running in Cursor (The Native Experience)
-Cursor allows The Last PM to physically read your context, fetch agents, and write Markdown files directly to your local drive.
+Cursor allows The Last PM to physically read your context, fetch agents, navigate folders, and write Markdown files directly to your local drive.
 
 1. **Get the OS:** Clone this repository or download it as a ZIP file.
 2. **Open your Vault:** Open the downloaded repository folder directly in Cursor.
 3. **Set the Rules (Optional but Recommended):** For a seamless experience, you can copy the contents of `LastPM.md` and paste them into your `.cursorrules` file. This makes the OS always active in the background.
 4. **Initiate the Orchestrator:** Open the Cursor Chat (`Cmd + L`), explicitly tag the Orchestrator, and state your problem.
-   * *Example:* `@LastPM.md I need to do a trade-off call between building the new onboarding flow vs. fixing tech debt. Walk me through it.`
+   * *Example:* `@LastPM.md I just dropped 3 user interviews into the Backlog folder. Tell me what the biggest friction point is.`
 
 ### 🤖 Option B: Running in Claude (Web/Desktop)
 If you don't use an IDE, you can run the OS using Claude's "Projects" feature, which acts as the system's memory.
 
 1. **Create the Environment:** Open Claude and create a new Project (e.g., "Product Vault").
-2. **Upload the Brain:** Upload the `agent_registry.md`, the `intent_dictionary.md`, and the entire `/04_Agents/` folder into the Project Knowledge base.
+2. **Upload the Brain:** Upload the files from `00_OS_System_Files` and the entire `/04_Agents/` folder into the Project Knowledge base.
 3. **Set the Identity:** Open `LastPM.md`, copy all the text, and paste it into the "Custom Instructions" box for your Claude Project.
 4. **Start Building:** Open a new chat inside the project and talk to your Chief of Staff.
-   * *Note: Because Claude Web cannot physically write files to your computer, it will output the final Markdown in the chat for you to copy/paste into your own notes.*
+   * *Note: Because Claude Web cannot physically write/organize files on your computer, it will output the final Markdown in the chat for you to copy/paste into your own notes.*
 
 ---
 
 ## ⚡ Model Selection & Token Economics
 You do not need to burn expensive premium tokens to run this OS.
 
-Because The Last PM relies on a highly constrained, step-by-step architectural algorithm rather than open-ended reasoning, it is exceptionally token-efficient. You do not need heavy-duty reasoning models for the daily workflow.
+Because The Last PM relies on a highly constrained, step-by-step architectural algorithm (The KERNEL Framework) rather than open-ended reasoning, it is exceptionally token-efficient. You do not need heavy-duty reasoning models for the daily workflow.
 
-The system runs flawlessly on lightning-fast, lightweight models (like Anthropic's Haiku 3.5 or Claude 3.5 Sonnet).
+The system runs flawlessly on lightning-fast, lightweight models like Anthropic's **Claude 3.5 Sonnet** or **Claude 3.5 Haiku**.
 
 **The Benefit:** You get near-instant agent execution, zero hallucination loops, and you save your premium IDE requests for complex coding tasks. The architecture does the heavy lifting, not the model.
 
 ---
 
-## 🗂️ The Vault Architecture
+## 🗂️ The Vault Architecture (Localized Project Workspaces)
 
-The Last PM is not a random folder of prompts. It is a strictly structured file system designed to separate your raw data, your static business context, and the AI's episodic memory.
+The Last PM is a strictly structured file system designed to separate OS logic, static business context, and isolated project workspaces to prevent "Context Pollution."
 
 ```text
 📦 The-Last-PM
 ┣ 📜 LastPM.md                           # The Orchestrator (Paste into .cursorrules or Claude System Prompt)
-┣ 📂 00_Inbox_and_Raw_Data               # The AI drops your raw transcripts, Jira exports, and inputs here before execution
-┣ 📂 01_Semantic_Memory                  # The Static Brain & OS Routing Files
-┃ ┣ 📂 00_OS_System_Files                # The Operating System Core
-┃ ┃ ┣ 📜 agent_registry.md               # The Directory of all 50+ specialized agents and their required inputs
-┃ ┃ ┗ 📜 intent_dictionary.md            # The Deterministic Routing Map used by the Orchestrator
-┃ ┣ 📂 01_Company_Context                # company.md (Business model, burn rate, core constraints)
-┃ ┗ 📂 02_Product_Context                # product.md (Current capabilities, value props)
-┣ 📂 02_Product_Documentation            # The Output Vault (AI generates PRDs, Roadmaps here)
-┃ ┣ 📂 01_Corp_Strategy_and_Monetization # Mapped strictly to the 10 Domains of Great Taste
-┃ ┣ 📂 02_Discovery_and_User_Psychology  
-┃ ┣ 📂 03_Definition_Scoping_and_Prioritization
-┃ ┣ 📂 04_Execution_and_Risk_Management
-┃ ┣ 📂 05_Growth_Analytics_and_Data_Ops
-┃ ┣ 📂 06_Positioning_and_GTM
-┃ ┣ 📂 07_Team_Ops_and_Org_Design
-┃ ┣ 📂 08_Legal_Compliance_and_Security
-┃ ┣ 📂 09_AI_Product_Craft_and_Tech
-┃ ┣ 📂 10_Leadership_and_Personal_Craft
-┃ ┗ 📂 Initiatives                       # Specific feature scopes (e.g., /Feature_[Name]/)
-┣ 📂 03_Episodic_Memory                  # The Institutional Intelligence (Strategic Immune System)
-┃ ┗ 📂 01_Product_Decisions              # The AI reads these past PDRs before scoring to prevent repeating mistakes
-┃   ┗ 📜 DECISION_template.md            # The PDR template the AI uses to log major pivots and "killed" features
+┣ 📂 00_OS_System_Files                  # The Operating System Core
+┃ ┣ 📜 agent_registry.md                 # Directory of all 50+ specialized agents
+┃ ┣ 📜 intent_dictionary.md              # Deterministic Semantic Routing Map 
+┃ ┣ 📜 scoring_matrix.md                 # The 0-10 Evaluation Rubric
+┃ ┗ 📜 DECISION_template.md              # Template for Product Decision Records (PDRs)
+┣ 📂 01_Global_Context                   # The Static Brain
+┃ ┣ 📂 01_Company_Context                # company.md (Business model, burn rate, constraints)
+┃ ┗ 📂 02_Product_Context                # product.md (Current capabilities, OKRs, value props)
+┣ 📂 02_Product_Workspace                # The Localized Workspace (Where the work happens)
+┃ ┗ 📂 [Your_Product_Name]               # (e.g., DVA_Platform)
+┃   ┣ 📂 00_Intake_and_Backlog           # 📥 THE DROP ZONE: Raw transcripts, Zendesk tickets, raw ideas
+┃   ┣ 📂 01_Global_Domains               # Global Strategy & Docs mapped to the 10 Domains of Great Taste
+┃   ┗ 📂 02_Initiatives                  # 🚀 THE BUILD ZONE: Feature-specific folders 
+┃     ┗ 📂 Feature_[Name]                # PRDs, PDDs, and Initiative PDRs are stored locally here
 ┗ 📂 04_Agents                           # The Council of Titans (Your 50+ AI agents/frameworks)
   ┣ 📜 aha_moment_definer.md
   ┣ 📜 b2b_micro_loop_designer.md
-  ┣ 📜 candid_feedback_prep.md
   ┗ 📜 ... (and dozens more)
 
 ```
 ---
 
-## 🛠️ The Daily Workflow (v2.0 "Great Taste" Matrix)
+## 🛠️ The Daily Workflow: From Backlog to Initiative
 
-You do not need to memorize the 50 agents. You only need to talk to the Orchestrator, which operates as a strict, deterministic state machine:
+The Orchestrator operates as a strict, deterministic state machine. It actively manages the lifecycle of your ideas, promoting them from raw feedback to validated initiatives:
 
-1. **The Pitch:** You state a strategic problem or pitch a feature (@LastPM.md We should build an AI chatbot).
-2. **The Gatekeeper:** The OS reads the intent_dictionary.md and scores your pitch mathematically from 0-10 on Delight, Defensibility, Distribution, Monetization, and Feasibility.
-3. **The Intervention:** If your idea scores a 2/10 on Defensibility (no moat), the OS blocks you from writing a PRD and automatically routes you to a strategy framework (like the Strategic Choice Cascade) to fix the flaw.
-4. **The Checkpoint:** After you provide inputs, the OS presents a brief, bulleted summary of its assumptions. You stay in control and must approve the direction before it writes any documents.
-5. **The Artifact:** The OS generates the perfectly formatted Markdown document and automatically saves it into the correct 02_Product_Documentation domain folder.
-6. **The Memory:** It prompts you to log a Product Decision Record (PDR) so the Vault never loses the "why" behind your pivot.
+1. **The Intake (Drop Zone):** You drop a raw transcript, feature request, or angry support email into the 00_Intake_and_Backlog folder.
+2. **The Triage:** You ask the OS to evaluate it. The OS selects a Discovery agent (like the Opportunity Score Calculator) to quantify the actual user pain.
+3. **The Gatekeeper (Scoring):** If the pain is real, you pitch building a feature. The OS reads the scoring_matrix.md and mathematically scores your pitch from 0-10 on Delight, Defensibility, Distribution, Monetization, and Feasibility.
+4. **The Intervention:** If your idea has a fatal flaw (e.g., 4/10 Monetization), the OS blocks you from writing a PRD. It automatically routes you to a strategy framework (like the Tiering Strategy Architect) to fix the flaw.
+5. **The Checkpoint:** After you provide inputs, the OS presents a brief, bulleted summary of its assumptions. You stay in control and must approve the direction before it writes any documents.
+6. **The Promotion (Auto-Folder Creation):** Once approved, the OS physically generates the Markdown document. If it's a new feature, it automatically creates a new 02_Initiatives/[Feature_Name] folder and moves the idea out of the Backlog into the Build Zone.
+7. **The Memory:** It prompts you to log a Product Decision Record (PDR) directly into that initiative's folder so the Vault never loses the "why" behind your pivot.
 
 ---
 
@@ -133,11 +125,11 @@ The OS is only as smart as the context you give it. To stop the AI from giving y
 
 🧠 **The Static Brain (Initialize your Vault)**
 
-Before you run your first agent, you need to define your playing field. The OS uses a dedicated semantic memory folder to understand your business model and constraints.
+Before you run your first agent, you need to define your playing field.
 
-* **Navigate** to 01_Semantic_Memory/.
-* **Open and fill out** the core templates: company.md and product.md.
-* **Why this matters:** Every time The Last PM runs a framework, it silently reads these files first. This ensures the pricing agent knows you are a B2B Enterprise SaaS (not a consumer app), and the strategy agent knows your current burn rate.
+* **Navigate** to ```01_Global_Context/```.
+* **Open and fill out** the core templates: ```company.md``` and ```product.md```.
+* **Why this matters:** Every time The Last PM runs a framework, it silently reads these files first. This ensures the pricing agent knows you are a B2B Enterprise SaaS (not a consumer app), and the strategy agent knows your current OKRs.
 
 ⚡ **The Live Brain (MCP Integrations)**
 
@@ -146,9 +138,7 @@ To unlock the absolute highest tier of autonomous product management, you need t
 Because you are running this in Cursor, you can natively attach MCP servers to let The Last PM pull live data directly into the frameworks:
 
 * **Jira / Linear MCP:** Connect your issue tracker. When you ask the OS to run a prioritization framework (like LNO or RICE), it can dynamically pull your current backlog, read the tickets, and re-rank them based on your current strategy.
-* **Notion / Google Drive MCP:** Connect your knowledge base. Instead of copy-pasting customer interviews, you can tell the Orchestrator: "Fetch the last 5 Gong transcripts from Notion and run the Jobs-to-be-Done (JTBD) agent to find the core adoption friction."
+* **Notion / Google Drive MCP:** Connect your knowledge base. Instead of copy-pasting customer interviews into the Intake folder, you can tell the Orchestrator: "Fetch the last 5 Gong transcripts from Notion and run the Jobs-to-be-Done (JTBD) agent."
 * **GitHub MCP:** Connect your codebase. The OS can read PR velocity to understand true engineering constraints before proposing an aggressive roadmap.
 
-```
-Note: You don't need MCP to use The Last PM — you can always just paste your PRDs or transcripts directly into the chat. But wiring up MCP turns the system from a consultant into a fully integrated Chief of Staff.
-```
+```Note: You don't need MCP to use The Last PM — you can always just paste your PRDs or transcripts directly into the 00_Intake_and_Backlog folder. But wiring up MCP turns the system from a consultant into a fully integrated Chief of Staff. ```

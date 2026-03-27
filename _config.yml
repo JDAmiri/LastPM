@@ -1,0 +1,7 @@
+# This tells Jekyll to ignore our AI agent files so the build doesn't crash
+exclude:
+  - 00_OS_System_Files/
+  - 01_Global_Context/
+  - 02_Product_Workspace/
+  - 04_Agents/
+  - LastPM.md

@@ -7,7 +7,8 @@ For the last decade, Product Management lost its way. PMs were meant to be produ
 **The Last PM** is an open-source AI ecosystem designed to restore the craft of product building. It is not just a "PRD generator"—it is an elite Chief of Staff that orchestrates 50+ specialized AI agents. It automates the administrative tax of product strategy, data synthesis, and stakeholder alignment. By outsourcing the bureaucracy to the OS, human builders are finally free to focus on what AI cannot do: product sense, user empathy, and shipping with incredible taste.
 
 
-<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/65a3abb6-9c77-40b4-96a3-8e8f9f5c53c8" />
+<img width="1903" height="1023" alt="image" src="https://github.com/user-attachments/assets/59945a66-62fd-423a-b479-bbfdce627ec7" />
+
 
 
 ---

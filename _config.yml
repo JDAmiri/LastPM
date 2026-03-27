@@ -1,8 +1,11 @@
-theme: jekyll-theme-cayman
+remote_theme: cotes2020/jekyll-theme-chirpy
 title: The Last PM v3.0.0
 description: The Autonomous Product OS for Cursor & Claude.
 
-# We must be very strict with exclusions to stop Jekyll from parsing templates
+# Modern themes often need a baseurl setting
+baseurl: "/LastPM" 
+url: "https://jdamiri.github.io"
+
 exclude:
   - "00_OS_System_Files"
   - "01_Global_Context"

@@ -1,4 +1,7 @@
-# This tells Jekyll to ignore our AI agent files so the build doesn't crash
+theme: jekyll-theme-cayman  # <--- Change this name to swap themes!
+title: The Last PM v3.0.0
+description: The Autonomous Product OS for Cursor & Claude.
+
 exclude:
   - 00_OS_System_Files/
   - 01_Global_Context/

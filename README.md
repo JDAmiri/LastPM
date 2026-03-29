@@ -20,7 +20,15 @@ For the last decade, Product Management lost its way. PMs were meant to be produ
 | **Spends days wordsmithing alignment docs.** | Synthesizes complex strategy into sharp, Amazon-style 6-pagers in seconds. |
 | **Ships features to appease stakeholders.** | Uses the AI to mathematically stress-test roadmaps against actual business leverage (The "Great Taste" Matrix). |
 | **Drowns in unstructured customer feedback.** | Auto-extracts core user friction and monetization opportunities from raw transcripts. |
-| **Manages the Jira board.** | Lives in the trenches, iterating prototypes, and obsessing over product quality. |
+| **Manages the Jira board.** | Lives in the trenches, iterating prototypes, and obsessing 
+
+---
+
+#% ⚔️ The Skeptic’s Manifesto (Why You Can Trust the OS)
+
+* ** "AI hallucinates and lies to me."** Generic chatbots lie. The LastPM does not use open-ended chat. It is a deterministic state machine. It uses the KERNEL framework to map your data against mathematical scoring matrices (0-10 on Defensibility, Distribution, etc.). It doesn't guess; it calculates based on your hard inputs.
+* **"I need to run an AI 1,000 times as a thought partner to get anything good."** That is because you are starting from a blank prompt. The LastPM uses 50+ battle-tested, highly constrained playbooks (LNO, JTBD, Tiering Strategy). You aren't teaching the AI how to think; the OS is forcing you to run your ideas through the same mental models used by Amazon and Stripe.
+* ** "I only trust what I see. I won't let an AI write my strategy."** Neither would we. The LastPM is designed with Mandatory Human Checkpoints. If you pitch an idea with a fatal flaw (e.g., terrible monetization), the OS hits the brakes. It will not write the PRD. It flags the risk and forces you to pivot the strategy first. It is an exoskeleton for your product sense, not a replacement for your brain.
 
 ---
 

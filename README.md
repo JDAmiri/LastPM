@@ -1,10 +1,10 @@
 # 🚀 The Last PM: The OS for High-Craft Product Builders
 
-**An autonomous AI Chief of Staff inside your IDE (Cursor/Claude). Gain the leverage to escape the feature factory, elevate your product sense, and focus on building the right thing with exceptional taste.**
+**An autonomous Synthetic Product Brain Trust inside your IDE (Cursor/Claude). Gain the leverage to escape the feature factory, elevate your product sense, and focus on building the right thing with exceptional taste.**
 
 For the last decade, Product Management lost its way. PMs were meant to be product builders, deeply connected to user pain and product craft. Instead, the industry turned them into backlog administrators, alignment-bureaucrats, and meeting-facilitators.
 
-**The Last PM** is an open-source AI ecosystem designed to restore the craft of product building. It is not just a "PRD generator"—it is an elite Chief of Staff that orchestrates 50+ specialized AI agents. It automates the administrative tax of product strategy, data synthesis, and stakeholder alignment. By outsourcing the bureaucracy to the OS, human builders are finally free to focus on what AI cannot do: product sense, user empathy, and shipping with incredible taste.
+**The Last PM** is an open-source AI ecosystem designed to restore the craft of product building. It is not just a 'PRD generator'— it is your Synthetic Product Brain Trust. Think of it as an autonomous board of product titans, mathematically designed to tear apart your roadmap and expose fatal flaws before engineering writes a line of code. It automates the administrative tax of product strategy, data synthesis, and stakeholder alignment. By outsourcing the bureaucracy to the OS, human builders are finally free to focus on what AI cannot do: product sense, user empathy, and shipping with incredible taste.
 
 
 <img width="1903" height="1023" alt="image" src="https://github.com/user-attachments/assets/59945a66-62fd-423a-b479-bbfdce627ec7" />
@@ -24,7 +24,7 @@ For the last decade, Product Management lost its way. PMs were meant to be produ
 
 ---
 
-#% ⚔️ The Skeptic’s Manifesto (Why You Can Trust the OS)
+## ⚔️ The Skeptic’s Manifesto (Why You Can Trust the OS)
 
 * **"AI hallucinates and lies to me."** Generic chatbots lie. The LastPM does not use open-ended chat. It is a deterministic state machine. It uses the KERNEL framework to map your data against mathematical scoring matrices (0-10 on Defensibility, Distribution, etc.). It doesn't guess; it calculates based on your hard inputs.
 * **"I need to run an AI 1,000 times as a thought partner to get anything good."** That is because you are starting from a blank prompt. The LastPM uses 50+ battle-tested, highly constrained playbooks (LNO, JTBD, Tiering Strategy). You aren't teaching the AI how to think; the OS is forcing you to run your ideas through the same mental models used by the magnificent seven.

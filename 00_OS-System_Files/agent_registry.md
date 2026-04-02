@@ -2,6 +2,142 @@
 
 ---
 
+## Layer 0 — Venture Strategy & Market Intelligence
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `executive_strategy_synthesizer.md` |
+| **Description** | Synthesizes business context into one C-suite strategic recommendation using McKinsey Minto Pyramid / MECE — three mutually exclusive strategic options with a definitive pick. |
+| **Purpose** | Synthesize comprehensive business context into a single, high-impact strategic recommendation for C-level execution. |
+| **What This Agent Does & Why It Matters** | Acts as a ruthless filter for complex business data, translating operational realities into C-suite-ready strategic narratives. Forces product leaders to confront brutal realities and formulate distinct, mutually exclusive paths forward, preventing the common trap of presenting muddled, indecisive updates to leadership. |
+| **Perfect Use Cases** | ① When preparing for a quarterly board meeting or executive review ② When the company hits a critical inflection point (missed revenue, new competitor) ③ When seeking investment or resource allocation and needing to articulate ROI, timeline, and risks |
+| **PM Input Section** | Product/Market Context · Business Stage & Scale · Current Goals · The Biggest Challenge |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `market_entry_strategist.md` |
+| **Description** | Evaluates new markets and defines a localized, resource-aware 12-month entry roadmap using Market Attractiveness & Entry Mode Matrix. |
+| **Purpose** | To evaluate new market opportunities and define a localized, resource-aware 12-month entry roadmap. |
+| **What This Agent Does & Why It Matters** | Prevents "shiny object syndrome" in geographic or segment expansion by forcing a rigorous, quantified evaluation of market readiness. Bridges the gap between high-level ambition and ground-level execution, ensuring that entry modes and localization requirements are strategically aligned with available resources. |
+| **Perfect Use Cases** | ① When leadership mandates international expansion and you need to score a target market's viability ② When evaluating "Build vs. Buy vs. Partner" entry vehicles ③ When translating a "go" decision into a concrete 12-month roadmap with success metrics |
+| **PM Input Section** | Current Business Context · Target Market/Geography/Segment · Available Resources (Budget, Team, IP) |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `enterprise_risk_scenario_architect.md` |
+| **Description** | Generates a prioritized ERM risk matrix and 4-part scenario plan — 15 risks across 5 categories including a Black Swan scenario. |
+| **Purpose** | To systematically stress-test a project by identifying critical risks, scoring their impact, and mapping defensive scenarios. |
+| **What This Agent Does & Why It Matters** | Forces product teams to look beyond the "happy path" by systematically uncovering blind spots across market, operational, financial, regulatory, and reputational vectors. Prevents reactionary crisis management by forcing the definition of early warning indicators and contingency plans before they are needed. |
+| **Perfect Use Cases** | ① When preparing to launch a major new product line or enter a new market with high unknowns ② When preparing for a board or executive review where downside protection will be scrutinized ③ When navigating a highly volatile macro-environment or sudden competitor moves |
+| **PM Input Section** | Business / Project Description · Current Stage / Goal · Key Dependencies / Known Vulnerabilities |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `financial_model_builder.md` |
+| **Description** | Constructs a robust unit economics breakdown and stress-tested 3-year financial projection model with explicit formulas. |
+| **Purpose** | Construct a robust unit economics breakdown and stress-tested financial projection model. |
+| **What This Agent Does & Why It Matters** | Validates the financial viability of product strategies, elevating PMs from feature-thinkers to business-owners. Stress-tests CAC, LTV, margins, and burn rate, preventing investments in unsustainable growth loops. |
+| **Perfect Use Cases** | ① When launching a new product line and needing to model payback periods and break-even volume ② When preparing for a funding round with defensible 3-year projections ③ When evaluating pricing/packaging changes and their impact on gross margins and LTV |
+| **PM Input Section** | Business Model · Current Revenue & Costs · Growth Rate & Targets |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `customer_journey_mapper.md` |
+| **Description** | Maps every stage of the full customer lifecycle (Awareness to Churn) to identify friction, emotional shifts, and opportunities for delight. |
+| **Purpose** | To map every stage of the customer lifecycle to identify friction, emotional shifts, and opportunities for delight. |
+| **What This Agent Does & Why It Matters** | Visualizes the user's holistic experience from initial discovery to loyalty or churn. Prevents over-indexing on acquisition while neglecting onboarding and engagement, ensuring you design for the entire user lifecycle. |
+| **Perfect Use Cases** | ① When experiencing a leaky funnel and needing to identify exact drop-off points ② When launching a new zero-to-one product and establishing a baseline experience map ③ When auditing an existing flow for friction points and delight opportunities |
+| **PM Input Section** | Product / Service Description · Target Customer Persona · Current Conversion / Retention Rates |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `gtm_playbook_architect.md` |
+| **Description** | Crafts a complete, phased Go-To-Market playbook from product definition to launch execution — channels, messaging, KPIs, risks. |
+| **Purpose** | Craft a complete, phased Go-To-Market strategy from product definition to launch execution. |
+| **What This Agent Does & Why It Matters** | Acts as a seasoned CSO to ensure your product effectively penetrates the market. Prevents the "build it and they will come" trap by forcing rigorous channel prioritization, cohesive messaging, and preemptive risk mitigation. |
+| **Perfect Use Cases** | ① When finishing a PRD and transitioning from "what are we building" to "how do we sell it" ② When entering a new market and aligning messaging, channels, and partnerships ③ When allocating a strict marketing budget and team bandwidth for launch |
+| **PM Input Section** | Product Description · Target Market · Budget · Timeline/Target Launch Date |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `pricing_strategy_optimizer.md` |
+| **Description** | Engineers a comprehensive 3-tier pricing strategy backed by competitor audits, cost floors, value-based modeling, and psychological pricing tactics. |
+| **Purpose** | To formulate a rigorous, multi-tiered pricing strategy that maximizes revenue extraction while aligning with perceived customer value and cost structures. |
+| **What This Agent Does & Why It Matters** | Replaces standard pricing guesswork with a structured methodology combining cost-plus baselines, value-based ceilings, and behavioral economics. Prevents PMs from leaving money on the table, underpricing due to imposter syndrome, or creating confusing tier structures that cause choice paralysis. |
+| **Perfect Use Cases** | ① When launching a new zero-to-one product and needing initial price anchoring ② When revamping outdated legacy pricing toward usage-based or value-metric SaaS ③ When responding to a competitor's aggressive price drop |
+| **PM Input Section** | Product & Value Proposition · Current Price · Target Customer Segments · Cost Structure / Unit Economics · Known Competitors & Their Pricing |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `strategic_analysis_evaluator.md` |
+| **Description** | Conducts a rigorous combined SWOT (7 bullets each) and Porter's Five Forces analysis with 1-10 ratings and an overall industry attractiveness score. |
+| **Purpose** | Conduct a rigorous, combined strategic and industry analysis to evaluate market positioning and overall business viability. |
+| **What This Agent Does & Why It Matters** | Operates as a top-tier strategy professor, transforming raw company context into a brutal, academically rigorous market assessment. Prevents PMs from building products in structurally unattractive markets and eliminates "happy path" thinking by forcing an honest appraisal of weaknesses, threats, and competitive forces. |
+| **Perfect Use Cases** | ① When evaluating a pivot or new market entry to determine if industry dynamics are favorable ② During annual/quarterly strategic planning to align on competitive moats ③ When pressure-testing a business case to uncover hidden buyer/supplier leverage or substitution risks |
+| **PM Input Section** | Company/Business Description · Product Details · Target Industry · Company Stage |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `industry_trend_analyst.md` |
+| **Description** | Synthesizes global and industry-specific market shifts into a high-signal trend intelligence brief with PESTLE analysis and timeline-mapped impact ratings. |
+| **Purpose** | Synthesize global and industry-specific market shifts into a high-signal trend intelligence brief. |
+| **What This Agent Does & Why It Matters** | Forces you to look up from the backlog and observe the macroeconomic and micro-industry forces shaping your product's future. By mapping technological disruptions, capital flows, and regulatory shifts to specific timelines, it prevents building for yesterday's market and ensures strategic bets are grounded in reality. |
+| **Perfect Use Cases** | ① Annual strategic planning when you need a foundational market thesis before setting yearly OKRs ② When evaluating a pivot and needing to understand if underlying market currents have shifted ③ When preparing a Goldman Sachs-tier "why now" defense for fundraising or board prep |
+| **PM Input Section** | Industry · Business and Market Description |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `customer_persona_profiler.md` |
+| **Description** | Generates 4 deeply detailed customer personas with segment sizing, psychographic profiling, pain points, objections, triggers, and willingness-to-pay analysis. |
+| **Purpose** | To generate 4 highly detailed, actionable customer personas along with market sizing and prioritization. |
+| **What This Agent Does & Why It Matters** | Transforms superficial target audiences into deep, behavioral personas. By forcing rigorous analysis of pain points, trigger events, and willingness-to-pay, it prevents product and marketing teams from relying on generic demographics, ensuring product positioning actually resonates and converts. |
+| **Perfect Use Cases** | ① When entering a new market and needing to understand actual buyers before writing code or copy ② When current GTM messaging feels flat and you need precise trigger events ③ When deciding which segment's pain points to solve first in the upcoming roadmap |
+| **PM Input Section** | Product Description · Industry/Market · Existing Data/Assumptions |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `competitive_landscape_strategist.md` |
+| **Description** | Generates a Bain-style competitive intelligence report — top 10 direct competitors, 5 indirect threats, moat analysis, white space mapping, and positioning matrix. |
+| **Purpose** | Generate a rigorous, data-driven competitive intelligence report to identify strategic moats and actionable market gaps. |
+| **What This Agent Does & Why It Matters** | Elevates competitive analysis from a superficial feature comparison into a strategic deep dive. Forces PMs to look at defensibility, indirect adjacent threats, and unserved "white space." Prevents building in a vacuum or blindly copying competitors without understanding their underlying unit economics or positioning. |
+| **Perfect Use Cases** | ① When proposing a new product line and needing to understand existing competitors ② Annual strategy planning to assess shifting threat levels from adjacent players ③ When losing win-rate to competitors and needing to map the price-to-value matrix |
+| **PM Input Section** | Industry · Business & Positioning Description · Known competitors to force-include |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `tam_sam_som_analyst.md` |
+| **Description** | Generates an investor-ready, dual-methodology (top-down + bottom-up) TAM/SAM/SOM market sizing analysis with explicit formulas and analyst benchmarks. |
+| **Purpose** | To generate an investor-ready, dual-methodology market sizing analysis with clear assumptions. |
+| **What This Agent Does & Why It Matters** | Prevents overly optimistic, single-variable market sizing. By forcing both a top-down macroeconomic view and a bottom-up unit economics reality check, it builds a defensible, investor-ready market narrative. Grounds abstract market potential into actionable growth projections. |
+| **Perfect Use Cases** | ① When preparing a pitch deck and needing a rigorous market sizing slide for fundraising ② When evaluating a strategic pivot or expansion and needing to validate the revenue ceiling ③ When justifying the business value of a new major product line before committing engineering resources |
+| **PM Input Section** | Product Description · Target Customer · Geography · Unit Economics Estimate |
+
+---
+
+## Layer 1 — Corp Strategy & Monetization
+
 | Field | Details |
 |---|---|
 | **Agent Name** | `strategy_choice_cascade_mapper.md` |

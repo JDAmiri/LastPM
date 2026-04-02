@@ -1,14 +1,13 @@
 # 🚀 The Last PM: The OS for High-Craft Product Builders
 
-**An autonomous Synthetic Product Brain Trust inside your IDE (Cursor/Claude). Gain the leverage to escape the feature factory, elevate your product sense, and focus on building the right thing with exceptional taste.**
+**An autonomous AI Chief of Staff inside your IDE (Cursor/Claude). 62+ specialized agents across two altitudes — from McKinsey-level venture strategy to initiative-level product craft. Gain the leverage to escape the feature factory, elevate your product sense, and focus on building the right thing with exceptional taste.**
 
 For the last decade, Product Management lost its way. PMs were meant to be product builders, deeply connected to user pain and product craft. Instead, the industry turned them into backlog administrators, alignment-bureaucrats, and meeting-facilitators.
 
-**The Last PM** is an open-source AI ecosystem designed to restore the craft of product building. It is not just a 'PRD generator'— it is your Synthetic Product Brain Trust. Think of it as an autonomous board of product titans, mathematically designed to tear apart your roadmap and expose fatal flaws before engineering writes a line of code. It automates the administrative tax of product strategy, data synthesis, and stakeholder alignment. By outsourcing the bureaucracy to the OS, human builders are finally free to focus on what AI cannot do: product sense, user empathy, and shipping with incredible taste.
+**The Last PM** is an open-source AI ecosystem designed to restore the craft of product building. It is not just a "PRD generator"—it is an elite Chief of Staff that orchestrates 62+ specialized AI agents across two altitudes. It automates the administrative tax of product strategy, data synthesis, and stakeholder alignment. By outsourcing the bureaucracy to the OS, human builders are finally free to focus on what AI cannot do: product sense, user empathy, and shipping with incredible taste.
 
 
-<img width="1903" height="1023" alt="image" src="https://github.com/user-attachments/assets/59945a66-62fd-423a-b479-bbfdce627ec7" />
-
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/65a3abb6-9c77-40b4-96a3-8e8f9f5c53c8" />
 
 
 ---
@@ -20,15 +19,7 @@ For the last decade, Product Management lost its way. PMs were meant to be produ
 | **Spends days wordsmithing alignment docs.** | Synthesizes complex strategy into sharp, Amazon-style 6-pagers in seconds. |
 | **Ships features to appease stakeholders.** | Uses the AI to mathematically stress-test roadmaps against actual business leverage (The "Great Taste" Matrix). |
 | **Drowns in unstructured customer feedback.** | Auto-extracts core user friction and monetization opportunities from raw transcripts. |
-| **Manages the Jira board.** | Lives in the trenches, iterating prototypes, and obsessing 
-
----
-
-## ⚔️ The Skeptic’s Manifesto (Why You Can Trust the OS)
-
-* **"AI hallucinates and lies to me."** Generic chatbots lie. The LastPM does not use open-ended chat. It is a deterministic state machine. It uses the KERNEL framework to map your data against mathematical scoring matrices (0-10 on Defensibility, Distribution, etc.). It doesn't guess; it calculates based on your hard inputs.
-* **"I need to run an AI 1,000 times as a thought partner to get anything good."** That is because you are starting from a blank prompt. The LastPM uses 50+ battle-tested, highly constrained playbooks (LNO, JTBD, Tiering Strategy). You aren't teaching the AI how to think; the OS is forcing you to run your ideas through the same mental models used by the magnificent seven.
-* **"I only trust what I see. I won't let an AI write my strategy."** Neither would we. The LastPM is designed with Mandatory Human Checkpoints. If you pitch an idea with a fatal flaw (e.g., terrible monetization), the OS hits the brakes. It will not write the PRD. It flags the risk and forces you to pivot the strategy first. It is an exoskeleton for your product sense, not a replacement for your brain.
+| **Manages the Jira board.** | Lives in the trenches, iterating prototypes, and obsessing over product quality. |
 
 ---
 
@@ -36,13 +27,15 @@ For the last decade, Product Management lost its way. PMs were meant to be produ
 
 Great product leaders don't start from a blank page. They rely on mental models.
 
-You simply talk to **The Last PM** right inside your IDE. You state your strategic blocker, and the Orchestrator diagnoses the problem and silently summons the perfect mental model in the background. It commands a directory of expert agents, modeled after the methodologies of the industry's top product minds:
+You simply talk to **The Last PM** right inside your IDE. You state your strategic blocker, and the Orchestrator diagnoses the problem and silently summons the perfect mental model in the background. It commands a directory of 62+ expert agents operating at two altitudes, modeled after the methodologies of the industry's top product minds:
 
-* **Strategic Leverage & Prioritization:** Stop guessing. The system runs the LNO framework (Leverage, Neutral, Overhead) to ruthlessly cut the roadmap down to what actually moves the needle.
-* **Continuous Discovery & Product Sense:** Feed the OS raw user interviews, and it maps the precise psychological friction preventing users from activating or retaining.
-* **Go-To-Market & Monetization:** Design your pricing model, SaaS tiers, and packaging logic *before* engineering writes a single line of code.
-* **Positioning & Context:** When the market doesn't "get" your product, the system reframes your narrative so your unique value proposition becomes undeniably obvious.
-* **Launch Risk Pre-Mortems:** When facing launch anxiety, the OS hunts down the fatal execution risks (the Tigers and Elephants) before they break your app.
+* **Altitude 1 — Venture Strategy (McKinsey / Bain / Deloitte Level):** 12 agents for company-wide strategic decisions — executive strategy synthesis, TAM/SAM/SOM market sizing, competitive landscape analysis, financial modeling, enterprise risk & scenario planning, GTM playbooks, and industry trend intelligence. These fire when you're making venture-level bets, not feature-level ones.
+* **Altitude 2 — Initiative Execution (50 agents):** The full product craft toolkit:
+  * **Strategic Leverage & Prioritization:** Stop guessing. The system runs the LNO framework (Leverage, Neutral, Overhead) to ruthlessly cut the roadmap down to what actually moves the needle.
+  * **Continuous Discovery & Product Sense:** Feed the OS raw user interviews, and it maps the precise psychological friction preventing users from activating or retaining.
+  * **Go-To-Market & Monetization:** Design your pricing model, SaaS tiers, and packaging logic *before* engineering writes a single line of code.
+  * **Positioning & Context:** When the market doesn't "get" your product, the system reframes your narrative so your unique value proposition becomes undeniably obvious.
+  * **Launch Risk Pre-Mortems:** When facing launch anxiety, the OS hunts down the fatal execution risks (the Tigers and Elephants) before they break your app.
 
 You supply the product sense. The AI OS provides the leverage. You build the right thing.
 
@@ -67,7 +60,7 @@ Cursor allows The Last PM to physically read your context, fetch agents, navigat
 If you don't use an IDE, you can run the OS using Claude's "Projects" feature, which acts as the system's memory.
 
 1. **Create the Environment:** Open Claude and create a new Project (e.g., "Product Vault").
-2. **Upload the Brain:** Upload the files from `00_OS_System_Files` and the entire `/04_Agents/` folder into the Project Knowledge base.
+2. **Upload the Brain:** Upload the files from `00_OS_System_Files`, the `01_Global_Context/` folder, and the entire `/03_Agents/` folder into the Project Knowledge base.
 3. **Set the Identity:** Open `LastPM.md`, copy all the text, and paste it into the "Custom Instructions" box for your Claude Project.
 4. **Start Building:** Open a new chat inside the project and talk to your Chief of Staff.
    * *Note: Because Claude Web cannot physically write/organize files on your computer, it will output the final Markdown in the chat for you to copy/paste into your own notes.*
@@ -93,23 +86,31 @@ The Last PM is a strictly structured file system designed to separate OS logic, 
 📦 The-Last-PM
 ┣ 📜 LastPM.md                           # The Orchestrator (Paste into .cursorrules or Claude System Prompt)
 ┣ 📂 00_OS_System_Files                  # The Operating System Core
-┃ ┣ 📜 agent_registry.md                 # Directory of all 50+ specialized agents
+┃ ┣ 📜 agent_registry.md                 # Directory of all 62+ specialized agents
 ┃ ┣ 📜 intent_dictionary.md              # Deterministic Semantic Routing Map 
 ┃ ┣ 📜 scoring_matrix.md                 # The 0-10 Evaluation Rubric
 ┃ ┗ 📜 DECISION_template.md              # Template for Product Decision Records (PDRs)
 ┣ 📂 01_Global_Context                   # The Static Brain
 ┃ ┣ 📂 01_Company_Context                # company.md (Business model, burn rate, constraints)
-┃ ┗ 📂 02_Product_Context                # product.md (Current capabilities, OKRs, value props)
+┃ ┣ 📂 02_Product_Context                # product.md (Current capabilities, OKRs, value props)
+┃ ┗ 📂 03_Venture_Strategy               # 🏛️ Altitude 1: Company-level strategic artifacts
+┃                                         #    (Competitive landscape, financial models, TAM/SAM/SOM,
+┃                                         #     risk reports, GTM playbooks, industry trends)
 ┣ 📂 02_Product_Workspace                # The Localized Workspace (Where the work happens)
 ┃ ┗ 📂 [Your_Product_Name]               # (e.g., DVA_Platform)
 ┃   ┣ 📂 00_Intake_and_Backlog           # 📥 THE DROP ZONE: Raw transcripts, Zendesk tickets, raw ideas
 ┃   ┣ 📂 01_Global_Domains               # Global Strategy & Docs mapped to the 10 Domains of Great Taste
 ┃   ┗ 📂 02_Initiatives                  # 🚀 THE BUILD ZONE: Feature-specific folders 
 ┃     ┗ 📂 Feature_[Name]                # PRDs, PDDs, and Initiative PDRs are stored locally here
-┗ 📂 04_Agents                           # The Council of Titans (Your 50+ AI agents/frameworks)
-  ┣ 📜 aha_moment_definer.md
-  ┣ 📜 b2b_micro_loop_designer.md
-  ┗ 📜 ... (and dozens more)
+┗ 📂 03_Agents                           # The Council of Titans (Your 62+ AI agents/frameworks)
+  ┣ 📂 Altitude 1 — Venture Strategy     # 12 McKinsey/Bain/Deloitte-level agents
+  ┃ ┣ 📜 executive_strategy_synthesizer.md
+  ┃ ┣ 📜 tam_sam_som_analyst.md
+  ┃ ┗ 📜 ... (and 10 more)
+  ┣ 📂 Altitude 2 — Initiative Craft     # 50 initiative-level product agents
+  ┃ ┣ 📜 aha_moment_definer.md
+  ┃ ┣ 📜 b2b_micro_loop_designer.md
+  ┃ ┗ 📜 ... (and dozens more)
 
 ```
 ---

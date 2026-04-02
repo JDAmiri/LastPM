@@ -1,5 +1,7 @@
 # The Evaluation Rubric (0-10)
 
+> **Venture Bypass:** Agents with `scope: Venture` (Domain 0: Venture Strategy & Market Intelligence) are routed via `[ROUTE_DIRECT]` and do NOT participate in this scoring loop. They produce standalone strategic deliverables at the company/venture altitude. The scoring matrix below applies only to Initiative-scoped and Global-scoped agents.
+
 **1. Delight (Value & Usability)**
 * `0-3:` High friction, heavy manual work, users complain, or "orphan feature" (no clear pain).
 * `4-6:` Mildly useful, saves a few clicks, but users are indifferent.

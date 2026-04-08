@@ -33,7 +33,7 @@ purpose: To systematically stress-test a project by identifying critical risks, 
    * **Mitigation Strategy:** [Proactive step]
    * **Contingency Plan:** [Reactive step if risk materializes]
 3. **Scenario Planning:** Detail 4 scenarios (Best Case, Base Case, Worst Case, Black Swan). For each, provide exactly 3 bullet points: `Revenue/KPI Impact`, `Timeline to Materialize`, and `Strategic Response`.
-4. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the weakest contingency plan identified in the report. Then, explicitly recommend the user feed this output to `launch_risk_pre_mortem.md` to establish actionable mitigation steps for the proactive risk items.
+4. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the weakest contingency plan identified in the report. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -41,5 +41,5 @@ purpose: To systematically stress-test a project by identifying critical risks, 
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: False.
-NEXT_STEP_SUGGESTION: Feed this output to the Launch Risk Pre-Mortem (launch_risk_pre_mortem.md) to translate the top risks into actionable mitigation tickets and contingency protocols.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

@@ -34,7 +34,7 @@ purpose: To map every stage of the customer lifecycle to identify friction, emot
    * **Key Metrics to Track:** [Specific KPIs]
    * **Recommended Tools/Tactics:** [Optimization strategy]
 3. **[Friction Audit]:** 1 concise paragraph identifying the single biggest drop-off vulnerability across the entire mapped journey and why it happens.
-4. **Next Step (Execution Handoff):** Ask exactly 1 focused question to validate the riskiest assumption in the map. Then, explicitly recommend the user feed this output to `next_experimental_step_mapper.md` to design experiments for the biggest friction point, or `lean_one_pager_prd.md` to build solutions.
+4. **Next Step (Execution Handoff):** Ask exactly 1 focused question to validate the riskiest assumption in the map. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -52,5 +52,5 @@ ENRICHMENT_GOAL: Anchor Key Metrics to Track per journey stage with real industr
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: False.
-NEXT_STEP_SUGGESTION: Feed this output to the Next Experimental Step Mapper (next_experimental_step_mapper.md) to design experiments for the biggest friction point, or the Lean One-Pager PRD (lean_one_pager_prd.md) to scope solutions.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

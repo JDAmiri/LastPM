@@ -38,7 +38,7 @@ purpose: Synthesize comprehensive business context into a single, high-impact st
 6. **Resource Requirements:** Clear bullet points detailing People, Money, and Tools needed for the Recommended Strategy.
 7. **Decision Framework:** A simple, text-based 2x2 matrix or strict conditional logic framework for making the next 10 strategic decisions in this phase.
 8. **"If I only had 1 hour" Brief:** Exactly 1 sentence containing the single most important insight and immediate action.
-9. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the greatest assumption in the recommended strategy. Then, explicitly recommend the user feed this output to `okr_eigen_architect.md` to translate the 90-day initiatives into trackable metrics.
+9. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the greatest assumption in the recommended strategy. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -46,5 +46,5 @@ purpose: Synthesize comprehensive business context into a single, high-impact st
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: True. Ask the user if they want to log a Product Decision Record for this strategic recommendation.
-NEXT_STEP_SUGGESTION: Feed the 90-day priority initiatives to the OKR Eigen Architect (okr_eigen_architect.md) to translate them into outcome-driven, measurable Key Results.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules. If strategic_analysis_evaluator has not been run, recommend it before any Layer 1 suggestion. If it has been run, apply Rule 3 (Venture Score Gate) using the existing attractiveness score.
 </router_directives>

@@ -29,7 +29,7 @@ purpose: To evaluate new market opportunities and define a localized, resource-a
 2. **Entry Mode Analysis & Recommendation:** Briefly evaluate Direct Entry, Partnership/JV, Acquisition, Licensing, and Digital-first. Then, declare exactly ONE recommended entry mode, detailing its specific Pros, Cons, Cost estimate (High/Med/Low), and Timeline to launch.
 3. **Localization Requirements:** Provide exactly 5 bullet points defining mandatory adaptations for: Product/Service, Pricing (based on local purchasing power), Cultural Marketing, Legal/Compliance, and Talent/Ops.
 4. **Execution Plan:** Outline a concise 12-month roadmap (grouped by quarters or key milestones), a high-level investment budget allocation, and exactly 3 success KPIs for Month 6 and 3 success KPIs for Month 12.
-5. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the user's biggest assumed resource constraint. Then, explicitly recommend the user feed this output to `gtm_playbook_architect.md` to build the localized launch campaign.
+5. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the user's biggest assumed resource constraint. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -51,5 +51,5 @@ ENRICHMENT_GOAL: Validate the 5 attractiveness scores with real regulatory, comp
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: True. Ask the user if they want to log a Product Decision Record for this market entry decision.
-NEXT_STEP_SUGGESTION: Feed this output to the GTM Playbook Architect (gtm_playbook_architect.md) to build the localized launch campaign for the target market.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

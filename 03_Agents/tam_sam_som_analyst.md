@@ -29,7 +29,7 @@ purpose: To generate an investor-ready, dual-methodology market sizing analysis 
 1. **[TAM, SAM, SOM Breakdown]:** Present the final dollar figures for TAM, SAM, and SOM. Show the exact calculation for both the Top-Down Approach (Global -> Segment) and the Bottom-Up Approach (Unit price x viable users).
 2. **[Growth Projections (CAGR)]:** Provide a 5-year growth rate projection for the specific market segment, noting the primary macroeconomic or technological drivers.
 3. **[Key Assumptions & Analyst Verification]:** Bulleted list of the 3-5 critical assumptions holding the model together, followed by a brief comparison against 3 known analyst reports/benchmarks.
-4. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the weakest assumption in the bottom-up model. Then, explicitly recommend the user feed this output and their refined answer to `gtm_playbook_architect.md` to define how to capture that SOM.
+4. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the weakest assumption in the bottom-up model. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -51,5 +51,5 @@ ENRICHMENT_GOAL: Validate TAM/SAM/SOM calculations with at least 3 external anal
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: False.
-NEXT_STEP_SUGGESTION: Feed this output to the GTM Playbook Architect (gtm_playbook_architect.md) to define how to capture the identified SOM through channel strategy and launch phasing.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

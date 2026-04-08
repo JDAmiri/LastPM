@@ -2,6 +2,107 @@
 
 ---
 
+## Frontline Enablement Layer
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `release_notes_writer.md` |
+| **Description** | Translates a completed PRD into customer-facing release notes using Jobs-to-Be-Done outcome framing. |
+| **Purpose** | Transform technical PRD language into customer value language — what users can now do, not what was built. |
+| **What This Agent Does & Why It Matters** | Prevents the classic PM mistake of writing changelog entries that list features instead of outcomes. Forces every shipped item to be expressed as a before/after user job, ensuring customers immediately understand what changed and why it matters to them. Reduces support ticket volume by answering the most common post-release confusion points before they arise. |
+| **Perfect Use Cases** | ① Shipping a major feature and needing customer-ready copy that avoids engineering jargon ② Updating a help center or in-app "What's New" section ③ Preparing changelog content for a developer API or platform release |
+| **PM Input Section** | PRD (loaded automatically via PRD Gate) · Target Audience (end-user / admin / developer) · Release Type (major / minor / hotfix) |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `support_faq_generator.md` |
+| **Description** | Transforms a completed PRD into a support FAQ and internal brief that enables first-contact resolution without escalation. |
+| **Purpose** | Pre-answer every support ticket before it is submitted by turning PRD logic into user-perspective Q&A. |
+| **What This Agent Does & Why It Matters** | Prevents support teams from being blindsided by releases they did not read the PRD for. Forces the PM to anticipate confusion, not just describe functionality. Provides support reps with an escalation guide so they know exactly when to hand off, reducing ticket resolution time and rep frustration. |
+| **Perfect Use Cases** | ① Preparing a help center article before a feature goes live ② Briefing customer success and support teams ahead of a major release ③ Building self-service documentation from an existing PRD to reduce tier-1 ticket volume |
+| **PM Input Section** | PRD (loaded automatically via PRD Gate) · Output Destination (internal brief / external help center / both) · Known Confusion Points from Beta (optional) |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `change_management_comms_writer.md` |
+| **Description** | Converts a completed PRD into a structured ADKAR-model internal change communication package including a change management system entry. |
+| **Purpose** | Drive internal adoption of product changes by communicating what is changing, why, and what each affected team must do — before resistance forms. |
+| **What This Agent Does & Why It Matters** | Prevents the common PM failure of treating change communication as an afterthought. Uses the Prosci ADKAR model to sequence communications for maximum adoption — not just awareness. Includes a pre-formatted change management system entry ready to paste into Jira Change, ServiceNow, or equivalent tools. |
+| **Perfect Use Cases** | ① Rolling out a workflow change that affects multiple internal teams ② Communicating a product deprecation or sunset to internal stakeholders ③ Preparing change documentation for compliance or audit trail requirements |
+| **PM Input Section** | PRD (loaded automatically via PRD Gate) · Affected Teams/Departments · Go-Live Timeline · Expected Resistance Level (Low/Medium/High) |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `stakeholder_announcement_drafter.md` |
+| **Description** | Translates a completed PRD into a Minto Pyramid-structured executive or board announcement connecting the release to strategic priorities. |
+| **Purpose** | Give executives and sponsors a concise, outcome-first announcement that tells them what shipped, why it matters strategically, and exactly what (if anything) they need to do. |
+| **What This Agent Does & Why It Matters** | Prevents the PM mistake of sending executives feature-level updates that waste their time. Forces every announcement to lead with the business outcome and tie directly to stated OKRs or strategic priorities. Includes an explicit "The Ask" section so executives never have to guess whether action is required. |
+| **Perfect Use Cases** | ① Communicating a major product milestone to C-suite or board ② Closing the loop with a sponsor on a funded initiative ③ Preparing a VP-level announcement for a cross-functional release |
+| **PM Input Section** | PRD (loaded automatically via PRD Gate) · Executive Audience Level (C-suite / VP / Board) · OKR or Strategic Priority Advanced · Executive Ask (or "no action required") |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `linkedin_b2b_disarmer.md` |
+| **Description** | Drafts a B2B LinkedIn post using Elena Verna's Disarm & Educate framework — pairing an industry inside joke with a rigid 3-step strategic framework. |
+| **Purpose** | Earn reader trust by calling out a shared B2B pain point with brutal honesty, then delivering genuine strategic value as the payoff. |
+| **What This Agent Does & Why It Matters** | Prevents the PM/PMM mistake of writing dry, feature-focused LinkedIn posts that trigger corporate sales defenses. By forcing a contrast between a sarcastic inside joke and a dense strategic framework, it earns credibility without triggering buyer resistance. |
+| **Perfect Use Cases** | ① When launching a best-practice guide and wanting to tease the painful reality of the old way ② When calling out a recurring cross-functional friction point ③ When establishing thought leadership by giving away high-value consulting framing for free |
+| **PM Input Section** | Industry Pain Point (the inside joke) · The Solution/Framework (the 3-step fix) · Target Audience (ICP or role) · Relevant PRD or Product Context (optional) |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `linkedin_plg_velocity.md` |
+| **Description** | Scripts a minimal, high-impact LinkedIn post using the Time-to-Value Contrast framework — showing, not telling, a feature's before/after magic moment. |
+| **Purpose** | Prove product velocity in under 30 seconds by contrasting the old experience with the new magic moment, championing the builder. |
+| **What This Agent Does & Why It Matters** | Stops PMs from over-explaining features in launch posts. Shifts focus entirely to the time/effort delta, building a "build in public" movement by crediting the engineers and designers who created the moment. |
+| **Perfect Use Cases** | ① Launching a highly visual DevTool or AI feature with a dramatic before/after ② When a feature reduces time or clicks drastically and the contrast speaks for itself ③ "Build in public" velocity updates that champion the internal team |
+| **PM Input Section** | The Feature/Magic Moment · Time or Effort BEFORE · Time or Effort NOW · Builder Name to Tag · Relevant PRD (optional) |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `linkedin_authority_curator.md` |
+| **Description** | Synthesizes raw insights or quotes from industry leaders into a high-density, highly shareable LinkedIn post using Lenny Rachitsky's Crowdsourced Authority model. |
+| **Purpose** | Build personal brand authority and network reach by leveraging other people's credibility — structured, not sycophantic. |
+| **What This Agent Does & Why It Matters** | Prevents PMs from trying to be the sole genius. Guides you in synthesizing complex external insights into a shareable structured format that guarantees secondary exposure through the leaders being tagged. |
+| **Perfect Use Cases** | ① Mapping how top companies handle a specific PM challenge ② Turning unstructured interview data into a quantitative framework post ③ Growing newsletter or network by generating massive reshare incentive for tagged leaders |
+| **PM Input Section** | The Core Question Asked · Raw Insights/Quotes (paste) · Names and Titles of Leaders Referenced |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `linkedin_contrarian.md` |
+| **Description** | Writes a polarizing B2B LinkedIn post using Chris Walker's Spiky POV/Polarizing Teardown framework — attacking a broken methodology with hard data and proposing the replacement. |
+| **Purpose** | Filter out bad-fit prospects and build a high-conviction following by taking a hard public stance on a broken industry norm. |
+| **What This Agent Does & Why It Matters** | Forces you to take a stand. Neutral content does not drive revenue. This agent structures the teardown so the post attacks the process (never the person), uses hard data to back the claim, and immediately pivots to the new methodology — so it creates demand rather than just anger. |
+| **Perfect Use Cases** | ① When your product fundamentally disrupts a legacy workflow and you need to attack the workflow, not just pitch the alternative ② When your market obsesses over a vanity metric your product makes irrelevant ③ When you need to generate high-intent inbound by filtering out non-believers |
+| **PM Input Section** | The "Old Way"/Best Practice to Attack · Hard Data Proving It Is Broken · The "New Way" (Your Methodology) |
+
+---
+
+| Field | Details |
+|---|---|
+| **Agent Name** | `linkedin_executive_anchor.md` |
+| **Description** | Drafts a C-suite LinkedIn post using the Executive Macro-Narrative framework — tying company mission to a global trend, grounded by a human leadership moment. |
+| **Purpose** | Position the company as a stable, mission-driven anchor in an uncertain macro environment — for the benefit of enterprise buyers, employees, and partners. |
+| **What This Agent Does & Why It Matters** | Stops PMs from dragging executives into feature-level content. Elevates the conversation to vision, safety, and macro-trend relevance — which is what enterprise buyers actually purchase. Requires a genuine personal anecdote to prevent the post from becoming generic corporate narrative. |
+| **Perfect Use Cases** | ① Drafting a post for the CEO or VP that needs to sound human at massive scale ② When the company is navigating a major industry shift and needs to position as the anchor ③ Launching a company-wide employee advocacy campaign requiring a core narrative others can remix |
+| **PM Input Section** | Company Mission/Core Vision · Macro Global or Economic Trend · Executive's Personal Reflection or Anecdote |
+
+---
+
 ## Layer 0 — Venture Strategy & Market Intelligence
 
 | Field | Details |

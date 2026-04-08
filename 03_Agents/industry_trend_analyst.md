@@ -32,7 +32,7 @@ purpose: Synthesize global and industry-specific market shifts into a high-signa
    * *Consumer Behavior:* How buyer preferences are fundamentally evolving.
    * *Investment Signals:* Where smart money is flowing (VC deals, M&A, IPOs).
 4. **["So What" Business Synthesis]:** A markdown table mapping the top 5 most critical trends from above. Columns: Trend, Timeline (0-1yr/1-3yr/3-5yr), Impact Rating (1-10), Direct Business Impact ("So What" for the user's specific company).
-5. **Next Step (Execution Handoff):** Ask exactly 1 focused, challenging question about how the user's current roadmap defends against the highest-impact threat identified. Then, explicitly recommend the user feed this output to `strategy_kernel_architect.md` to distill a decisive strategic response, or `okr_eigen_architect.md` to set goals against these trends.
+5. **Next Step (Execution Handoff):** Ask exactly 1 focused, challenging question about how the user's current roadmap defends against the highest-impact threat identified. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -54,5 +54,5 @@ ENRICHMENT_GOAL: Ground all 5 macro forces and 7 micro patterns in current, veri
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: False.
-NEXT_STEP_SUGGESTION: Feed this output to the Strategy Kernel Architect (strategy_kernel_architect.md) to distill a decisive strategic response, or the OKR Eigen Architect (okr_eigen_architect.md) to set goals against these trends.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

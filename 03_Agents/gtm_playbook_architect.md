@@ -35,7 +35,7 @@ purpose: Craft a complete, phased Go-To-Market strategy from product definition 
 7. **KPI Framework:** Exactly 10 metrics to track, along with realistic target benchmarks.
 8. **Risk Mitigation:** Top exactly 5 launch risks and their specific contingency plans.
 9. **Quick Wins:** Exactly 3 tactics that can generate traction within the first 14 days.
-10. **Next Step (Execution Handoff):** Ask exactly 1 focused question to challenge the riskiest assumption in the Channel Strategy. Then, explicitly recommend the user feed the Messaging Framework output to `b2b_sales_enablement_drafter.md` for sales execution or `differentiated_positioning_canvas.md` for positioning refinement.
+10. **Next Step (Execution Handoff):** Ask exactly 1 focused question to challenge the riskiest assumption in the Channel Strategy. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -43,5 +43,5 @@ purpose: Craft a complete, phased Go-To-Market strategy from product definition 
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: True. Ask the user if they want to log a Product Decision Record for the GTM strategy.
-NEXT_STEP_SUGGESTION: Feed the Messaging Framework to the B2B Sales Enablement Drafter (b2b_sales_enablement_drafter.md) for sales battle cards, or the Differentiated Positioning Canvas (differentiated_positioning_canvas.md) for positioning refinement.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

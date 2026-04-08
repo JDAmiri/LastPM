@@ -28,7 +28,7 @@ purpose: Construct a robust unit economics breakdown and stress-tested financial
 1. **[Unit Economics Breakdown]:** A clear table detailing: CAC by channel, LTV calculation (showing assumptions/formulas), LTV:CAC ratio, Payback period, Gross margin per unit/customer, and Contribution margin.
 2. **[3-Year Projection Summary]:** A table forecasting: Revenue (monthly for Y1, quarterly for Y2-Y3), Cost structure (Fixed vs. Variable), Break-even volume/timeline, Cash flow forecast (burn rate), and a brief Sensitivity Analysis (Best/Base/Worst).
 3. **[Assumptions & Benchmarks]:** A table listing Key Assumptions with a justification for each, mapped against standard industry benchmarks for comparison.
-4. **[Red Flags & Next Step (Execution Handoff)]:** List the top 2-3 specific numbers or ratios that should trigger worry. Ask exactly 1 focused question to challenge the weakest financial assumption. Then, explicitly recommend the user feed this output to `lean_one_pager_prd.md` for product scoping or `gtm_playbook_architect.md` for go-to-market execution.
+4. **[Red Flags & Next Step (Execution Handoff)]:** List the top 2-3 specific numbers or ratios that should trigger worry. Ask exactly 1 focused question to challenge the weakest financial assumption. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -46,5 +46,5 @@ ENRICHMENT_GOAL: Anchor the Assumptions & Benchmarks table in real industry data
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: False.
-NEXT_STEP_SUGGESTION: Feed this output to the Lean One-Pager PRD (lean_one_pager_prd.md) for product scoping or the GTM Playbook Architect (gtm_playbook_architect.md) for go-to-market execution.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

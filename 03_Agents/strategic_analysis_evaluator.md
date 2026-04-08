@@ -41,7 +41,7 @@ purpose: Conduct a rigorous, combined strategic and industry analysis to evaluat
    * **Threat of Substitution:** Detail alternatives beyond direct competitors. Rate (1-10).
    * **Threat of New Entry:** Evaluate barriers to entry for new players. Rate (1-10).
 4. **[Overall Industry Attractiveness]:** Provide a final synthesized score based on the Five Forces ratings, accompanied by a 2-sentence professor's verdict on the market.
-5. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the weakest part of the user's strategic positioning. Then, explicitly recommend the user feed this output to `phased_vision_mapper.md` to translate this analysis into a sequenced strategic roadmap, or `okr_eigen_architect.md` to set actionable goals.
+5. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the weakest part of the user's strategic positioning. Do NOT recommend a specific next agent in this artifact text — the orchestrator will apply the Venture Score Gate in the next step and output the concrete recommendation there.
 
 ---
 
@@ -60,5 +60,5 @@ ENRICHMENT_GOAL: Ground Porter's Five Forces ratings in real competitive dynamic
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: False.
-NEXT_STEP_SUGGESTION: Feed this output to the Phased Vision Mapper (phased_vision_mapper.md) for a sequenced 3-5 year strategic roadmap, or the OKR Eigen Architect (okr_eigen_architect.md) to translate theory into actionable goals.
+NEXT_STEP_SUGGESTION: Apply venture_pipeline.md Rule 3 (Venture Score Gate) using the Overall Industry Attractiveness score from this artifact.
 </router_directives>

@@ -36,7 +36,7 @@ purpose: To generate 4 highly detailed, actionable customer personas along with 
    * **Objections:** Exactly 3 reasons they would say NO to this product.
    * **Trigger events:** The specific moment/catalyst that makes them actively search for a solution.
    * **Willingness to pay:** Price sensitivity analysis for this specific segment.
-3. **Next Step (Execution Handoff):** Ask exactly 1 focused question to challenge the user on the riskiest assumption regarding the "High Priority" persona. Then, explicitly recommend the user feed this output to `differentiated_positioning_canvas.md` for positioning or `gtm_playbook_architect.md` for go-to-market execution.
+3. **Next Step (Execution Handoff):** Ask exactly 1 focused question to challenge the user on the riskiest assumption regarding the "High Priority" persona. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -54,5 +54,5 @@ ENRICHMENT_GOAL: Validate segment sizing percentages and demographic assumptions
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: False.
-NEXT_STEP_SUGGESTION: Feed this output to the Differentiated Positioning Canvas (differentiated_positioning_canvas.md) for positioning, or the GTM Playbook Architect (gtm_playbook_architect.md) for go-to-market execution.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

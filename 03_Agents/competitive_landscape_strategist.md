@@ -29,7 +29,7 @@ purpose: Generate a rigorous, data-driven competitive intelligence report to ide
 2. **Indirect & Adjacent Threats:** Provide a Markdown table of 5 adjacent companies that could enter this market. Columns: Name, Current Adjacency, Threat Assessment (Low/Medium/High), Why They Might Enter.
 3. **Competitor Deep Dive & Moats:** For the Top 3 direct competitors *only*, provide 3 bullet points each detailing: Key Features, Recent Strategic Moves, and their Core Competitive Moat (what makes them defensible).
 4. **Market Positioning & White Space Analysis:** Describe the current Market Positioning Map (Price vs. Value matrix) in 2-3 sentences. Identify exactly 2 "White Space" gaps that no competitor is currently filling.
-5. **Next Step (Execution Handoff):** Ask exactly 1 focused, challenging question regarding how the user's company plans to exploit the identified white space. Then, explicitly recommend the user feed this output to `differentiated_positioning_canvas.md` to define the positioning attack plan, or `gtm_playbook_architect.md` for go-to-market strategy.
+5. **Next Step (Execution Handoff):** Ask exactly 1 focused, challenging question regarding how the user's company plans to exploit the identified white space. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -51,5 +51,5 @@ ENRICHMENT_GOAL: Fill in market share estimates, revenue/funding data, pricing m
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: False.
-NEXT_STEP_SUGGESTION: Feed this output to the Differentiated Positioning Canvas (differentiated_positioning_canvas.md) to define the positioning attack plan, or the GTM Playbook Architect (gtm_playbook_architect.md) for go-to-market strategy.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

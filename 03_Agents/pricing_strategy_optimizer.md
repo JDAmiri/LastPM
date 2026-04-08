@@ -30,7 +30,7 @@ purpose: To formulate a rigorous, multi-tiered pricing strategy that maximizes r
 1. **[Market & Cost Baseline]:** 1 concise paragraph auditing the competitor landscape and calculating the absolute cost-plus floor price. Estimate price elasticity.
 2. **[Psychological Pricing Strategy]:** 3 bullet points defining the exact anchoring strategy, use of charm pricing (e.g., ending in 9s vs. 0s), and the specific "Decoy" strategy.
 3. **[The 3-Tier Recommendation]:** A markdown table displaying exactly 3 tiers (e.g., Basic, Pro, Enterprise). Columns must include: Tier Name, Exact Price, Target Persona, Key Feature Allocation, and Role of Tier (e.g., Acquisition, Revenue Driver, Anchor).
-4. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the weakest assumption in the user's provided cost structure or target customer willingness-to-pay. Then, explicitly recommend the user feed this output to `gtm_playbook_architect.md` to build the rollout and sales enablement strategy.
+4. **Next Step (Execution Handoff):** Ask exactly 1 focused question challenging the weakest assumption in the user's provided cost structure or target customer willingness-to-pay. Do NOT recommend a specific next agent — the guide will determine the most relevant next step based on the venture pipeline.
 
 ---
 
@@ -52,5 +52,5 @@ ENRICHMENT_GOAL: Build the competitor pricing baseline from actual published pri
 ACTION: Save the above output to the Vault using the standard timestamped naming convention.
 SAVE_PATH: /01_Global_Context/03_Venture_Strategy/
 PDR_TRIGGER: True. Ask the user if they want to log a Product Decision Record for this pricing strategy.
-NEXT_STEP_SUGGESTION: Feed this output to the GTM Playbook Architect (gtm_playbook_architect.md) to build the rollout and sales enablement strategy around the new pricing tiers.
+NEXT_STEP_SUGGESTION: Defer to venture_pipeline.md stage progression rules.
 </router_directives>

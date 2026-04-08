@@ -1,14 +1,10 @@
-# 🚀 The Last PM: The OS for High-Craft Product Builders
+# 🚀 The Last PM: The Final Interface For High-Craft Product Strategy
 
-**An autonomous AI Chief of Staff inside your IDE (Cursor/Claude). 62+ specialized agents across two altitudes — from McKinsey-level venture strategy to initiative-level product craft. Gain the leverage to escape the feature factory, elevate your product sense, and focus on building the right thing with exceptional taste.**
+**AI didn't fix Product Management; it just made us ship bad features faster.** Generative AI gave us the ability to write 10-page PRDs for fundamentally doomed ideas in under 30 seconds. Most AI tools are "Yes Men." You ask for a feature, and they blindly write the spec. They don't ask if the feature cannibalizes your PLG motion, lacks an *Aha!* retention hook, or fails the DHM (Delight, Hard to Copy, Margin) test.
 
-For the last decade, Product Management lost its way. PMs were meant to be product builders, deeply connected to user pain and product craft. Instead, the industry turned them into backlog administrators, alignment-bureaucrats, and meeting-facilitators.
-
-**The Last PM** is an open-source AI ecosystem designed to restore the craft of product building. It is not just a "PRD generator"—it is an elite Chief of Staff that orchestrates 62+ specialized AI agents across two altitudes. It automates the administrative tax of product strategy, data synthesis, and stakeholder alignment. By outsourcing the bureaucracy to the OS, human builders are finally free to focus on what AI cannot do: product sense, user empathy, and shipping with incredible taste.
-
+**The Last PM** is an open-source, anti-hallucination Operating System built natively for your IDE (**Cursor**) or **Claude Projects**. It is not a chatbot. It is an elite, deterministic **Synthetic Product Brain Trust** designed for modern product craft. 
 
 <img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/65a3abb6-9c77-40b4-96a3-8e8f9f5c53c8" />
-
 
 ---
 
@@ -16,55 +12,93 @@ For the last decade, Product Management lost its way. PMs were meant to be produ
 
 | The Feature Factory PM | The High-Craft Builder (Using Last PM) |
 | :--- | :--- |
-| **Spends days wordsmithing alignment docs.** | Synthesizes complex strategy into sharp, Amazon-style 6-pagers in seconds. |
-| **Ships features to appease stakeholders.** | Uses the AI to mathematically stress-test roadmaps against actual business leverage (The "Great Taste" Matrix). |
-| **Drowns in unstructured customer feedback.** | Auto-extracts core user friction and monetization opportunities from raw transcripts. |
-| **Manages the Jira board.** | Lives in the trenches, iterating prototypes, and obsessing over product quality. |
+| **Spends days wordsmithing alignment docs.** | Synthesizes complex strategy into sharp, executive-ready narratives in seconds. |
+| **Ships features to appease stakeholders.** | Uses the OS to mathematically score ideas and reject features lacking a structural moat. |
+| **Drowns in unstructured customer feedback.** | Auto-extracts core user friction and monetization signals directly from raw transcripts. |
+| **Acts as a backlog administrator.** | Lives in the trenches, iterating prototypes, and obsessing over product quality. |
 
 ---
 
-## 🧠 Your Council of Titans: Leverage at Scale
+## 🛡️ The Gatekeeper & The 71 Titans
 
-Great product leaders don't start from a blank page. They rely on mental models.
+Great product leaders don't start from a blank page; they rely on mental models. 
 
-You simply talk to **The Last PM** right inside your IDE. You state your strategic blocker, and the Orchestrator diagnoses the problem and silently summons the perfect mental model in the background. It commands a directory of 62+ expert agents operating at two altitudes, modeled after the methodologies of the industry's top product minds:
+The Last PM features a built-in **Gatekeeper**. When you pitch an idea, the OS mathematically scores it against elite defensibility matrices. If your idea is structurally flawed, the system hits the brakes and forces you to iterate *before* allowing a PRD to be generated.
 
-* **Altitude 1 — Venture Strategy (McKinsey / Bain / Deloitte Level):** 12 agents for company-wide strategic decisions — executive strategy synthesis, TAM/SAM/SOM market sizing, competitive landscape analysis, financial modeling, enterprise risk & scenario planning, GTM playbooks, and industry trend intelligence. These fire when you're making venture-level bets, not feature-level ones.
-* **Altitude 2 — Initiative Execution (50 agents):** The full product craft toolkit:
-  * **Strategic Leverage & Prioritization:** Stop guessing. The system runs the LNO framework (Leverage, Neutral, Overhead) to ruthlessly cut the roadmap down to what actually moves the needle.
-  * **Continuous Discovery & Product Sense:** Feed the OS raw user interviews, and it maps the precise psychological friction preventing users from activating or retaining.
-  * **Go-To-Market & Monetization:** Design your pricing model, SaaS tiers, and packaging logic *before* engineering writes a single line of code.
-  * **Positioning & Context:** When the market doesn't "get" your product, the system reframes your narrative so your unique value proposition becomes undeniably obvious.
-  * **Launch Risk Pre-Mortems:** When facing launch anxiety, the OS hunts down the fatal execution risks (the Tigers and Elephants) before they break your app.
+It orchestrates **71 specialized AI Titans** across three distinct altitudes:
 
-You supply the product sense. The AI OS provides the leverage. You build the right thing.
+* **Altitude 2: Venture Strategy (The Macro Layer)** — 12 McKinsey/Bain/Deloitte-tier playbooks. Governed by a strict stage-gate, the OS guides you from industry trend analysis to financial unit economics. It refuses to let you plan execution until the market is proven structurally attractive.
+* **Altitude 1: Initiative Craft (The Execution Layer)** — 50 tactical Titans designed to protect your backlog. Natively reading your context, the OS maps Opportunity Solution Trees, designs B2B micro-loops, runs LNO prioritization, and translates hypotheses into ultra-lean PRDs.
+* **Altitude 0: Frontline Enablement (The Translation Layer)** — 9 autonomous downstream agents. The OS silently reads your approved PRDs and translates them into Sales Battlecards, Support FAQs, Change Management logs, and B2B LinkedIn launch posts—with zero hallucinations and zero administrative tax.
+
+---
+
+## 📡 Deterministic Market Intelligence (Phase 2.5)
+
+Most AI lies because it tries to guess your market size and competitor revenue. The Last PM features a strict **Research Protocol**. 
+
+If a Venture agent requires external market intelligence (like sizing up a competitor), the Orchestrator pauses and triggers autonomous `WebSearch` and `WebFetch` operations. Every external data point is strictly tagged as `[VERIFIED]`, `[REPORTED]`, or `[ESTIMATED]`. If a number cannot be mathematically verified or found, the OS will state *"Data Unavailable"* rather than inventing a figure.
+
+---
+
+## 🛠️ The Daily Workflow: From Backlog to Initiative
+
+The Orchestrator operates as a strict, deterministic state machine. It actively manages the lifecycle of your ideas:
+
+1. **The Drop Zone:** You drop a raw transcript, strategy deck, or angry support email into the `00_Intake_and_Backlog` folder.
+2. **The Triage:** The OS selects a Discovery agent (like the Opportunity Score Calculator) to quantify the actual user pain.
+3. **The Gatekeeper:** You pitch a feature. The OS reads the `scoring_matrix.md` and mathematically scores your pitch from 0-10 on Delight, Defensibility, Distribution, Monetization, and Feasibility.
+4. **The Intervention:** If your idea has a fatal flaw, the OS blocks the PRD and routes you to a strategy framework (like the Tiering Strategy Architect) to fix the vulnerability.
+5. **The Checkpoint:** You stay in control. The OS presents a brief, bulleted summary of its assumptions. You must approve the direction before it writes any documents.
+6. **The Promotion:** Once approved, the OS physically generates the Markdown document, creates a new `02_Initiatives/[Feature_Name]` folder, and moves the idea out of the Backlog into the Build Zone.
 
 ---
 
 ## ⚙️ How to Install & Run The OS
 
-The Last PM is not a traditional software app you install. It is a file system and a set of strict architectural prompts that live directly where you work.
-
-**Prerequisites:** You need either **Cursor IDE** (Highly Recommended for autonomous file writing) or **Claude** (via Claude Projects).
+The Last PM is a file system and a set of strict architectural prompts that live directly where you work.
 
 ### 💻 Option A: Running in Cursor (The Native Experience)
-Cursor allows The Last PM to physically read your context, fetch agents, navigate folders, and write Markdown files directly to your local drive.
-
+Cursor allows The Last PM to physically read your context, fetch agents, navigate folders, and write files directly to your local drive.
 1. **Get the OS:** Clone this repository or download it as a ZIP file.
 2. **Open your Vault:** Open the downloaded repository folder directly in Cursor.
-3. **Set the Rules (Optional but Recommended):** For a seamless experience, you can copy the contents of `LastPM.md` and paste them into your `.cursorrules` file. This makes the OS always active in the background.
-4. **Initiate the Orchestrator:** Open the Cursor Chat (`Cmd + L`), explicitly tag the Orchestrator, and state your problem.
-   * *Example:* `@LastPM.md I just dropped 3 user interviews into the Backlog folder. Tell me what the biggest friction point is.`
+3. **Set the Rules (Mandatory):** Copy the entire contents of `LastPM.md` and paste them into your `.cursorrules` file. This is the Orchestrator's brain.
+4. **Initiate the Orchestrator:** Open the Cursor Chat (`Cmd + L`), and state your problem. *(Example: "I just dropped 3 user interviews into the Backlog. Run an analysis on the biggest friction point.")*
 
 ### 🤖 Option B: Running in Claude (Web/Desktop)
-If you don't use an IDE, you can run the OS using Claude's "Projects" feature, which acts as the system's memory.
-
+If you don't use an IDE, you can run the OS using Claude's "Projects" feature.
 1. **Create the Environment:** Open Claude and create a new Project (e.g., "Product Vault").
-2. **Upload the Brain:** Upload the files from `00_OS_System_Files`, the `01_Global_Context/` folder, and the entire `/03_Agents/` folder into the Project Knowledge base.
-3. **Set the Identity:** Open `LastPM.md`, copy all the text, and paste it into the "Custom Instructions" box for your Claude Project.
-4. **Start Building:** Open a new chat inside the project and talk to your Chief of Staff.
-   * *Note: Because Claude Web cannot physically write/organize files on your computer, it will output the final Markdown in the chat for you to copy/paste into your own notes.*
+2. **Upload the Brain:** Upload the `00_OS_System_Files`, `01_Global_Context`, and `03_Agents` folders into the Project Knowledge base.
+3. **Set the Identity:** Copy the text from `LastPM.md` and paste it into the "Custom Instructions" box for your Claude Project.
 
+---
+
+## 🗂️ The Vault Architecture (Relational Context)
+
+The Last PM relies on a strict file system to separate macro-strategy from micro-execution, preventing AI context bloat. 
+
+```text
+📦 The-Last-PM
+┣ 📜 LastPM.md                           # The Orchestrator (Paste into .cursorrules)
+┣ 📂 00_OS_System_Files                  # The Operating System Core
+┃ ┣ 📜 agent_registry.md                 # Directory of all 71 specialized agents
+┃ ┣ 📜 intent_dictionary.md              # Deterministic Semantic Routing Map 
+┃ ┣ 📜 scoring_matrix.md                 # The 0-10 Evaluation Rubric
+┃ ┣ 📜 venture_pipeline.md               # The Stage-Gate routing for Venture strategy
+┃ ┣ 📜 research_protocol.md              # WebFetch logic for Anti-Hallucination
+┃ ┗ 📜 DECISION_template.md              # Template for Product Decision Records (PDRs)
+┣ 📂 01_Global_Context                   # The Relational Canvas (Your Static Brain)
+┃ ┣ 📂 01_Company_Context                # (Economics, Brand Voice, Burn Rate)
+┃ ┣ 📂 02_Product_Context                # (Target Personas, Positioning, OKRs)
+┃ ┗ 📂 03_Venture_Strategy               # (TAM/SAM/SOM, Portfolio Ledgers, ERM Risks)
+┣ 📂 02_Product_Workspace                # The Localized Execution Workspace
+┃ ┗ 📂 [Your_Product_Name]               
+┃   ┣ 📂 00_Intake_and_Backlog           # 📥 DROP ZONE: Raw transcripts, decks, notes
+┃   ┣ 📂 01_Global_Domains               # Initiative-agnostic product systems
+┃   ┣ 📂 02_Initiatives                  # 🚀 BUILD ZONE: PRDs and PDDs stored by feature
+┃   ┗ 📂 03_Enablement                   # 📢 FRONTLINE: Auto-generated FAQs, Sales Battlecards, Social Posts
+┗ 📂 03_Agents                           # The Council of Titans (71 AI frameworks)
+```
 ---
 
 ## ⚡ Model Selection & Token Economics
@@ -75,57 +109,6 @@ Because The Last PM relies on a highly constrained, step-by-step architectural a
 The system runs flawlessly on lightning-fast, lightweight models like Anthropic's **Claude 3.5 Sonnet** or **Claude 3.5 Haiku**.
 
 **The Benefit:** You get near-instant agent execution, zero hallucination loops, and you save your premium IDE requests for complex coding tasks. The architecture does the heavy lifting, not the model.
-
----
-
-## 🗂️ The Vault Architecture (Localized Project Workspaces)
-
-The Last PM is a strictly structured file system designed to separate OS logic, static business context, and isolated project workspaces to prevent "Context Pollution."
-
-```text
-📦 The-Last-PM
-┣ 📜 LastPM.md                           # The Orchestrator (Paste into .cursorrules or Claude System Prompt)
-┣ 📂 00_OS_System_Files                  # The Operating System Core
-┃ ┣ 📜 agent_registry.md                 # Directory of all 62+ specialized agents
-┃ ┣ 📜 intent_dictionary.md              # Deterministic Semantic Routing Map 
-┃ ┣ 📜 scoring_matrix.md                 # The 0-10 Evaluation Rubric
-┃ ┗ 📜 DECISION_template.md              # Template for Product Decision Records (PDRs)
-┣ 📂 01_Global_Context                   # The Static Brain
-┃ ┣ 📂 01_Company_Context                # company.md (Business model, burn rate, constraints)
-┃ ┣ 📂 02_Product_Context                # product.md (Current capabilities, OKRs, value props)
-┃ ┗ 📂 03_Venture_Strategy               # 🏛️ Altitude 1: Company-level strategic artifacts
-┃                                         #    (Competitive landscape, financial models, TAM/SAM/SOM,
-┃                                         #     risk reports, GTM playbooks, industry trends)
-┣ 📂 02_Product_Workspace                # The Localized Workspace (Where the work happens)
-┃ ┗ 📂 [Your_Product_Name]               # (e.g., DVA_Platform)
-┃   ┣ 📂 00_Intake_and_Backlog           # 📥 THE DROP ZONE: Raw transcripts, Zendesk tickets, raw ideas
-┃   ┣ 📂 01_Global_Domains               # Global Strategy & Docs mapped to the 10 Domains of Great Taste
-┃   ┗ 📂 02_Initiatives                  # 🚀 THE BUILD ZONE: Feature-specific folders 
-┃     ┗ 📂 Feature_[Name]                # PRDs, PDDs, and Initiative PDRs are stored locally here
-┗ 📂 03_Agents                           # The Council of Titans (Your 62+ AI agents/frameworks)
-  ┣ 📂 Altitude 1 — Venture Strategy     # 12 McKinsey/Bain/Deloitte-level agents
-  ┃ ┣ 📜 executive_strategy_synthesizer.md
-  ┃ ┣ 📜 tam_sam_som_analyst.md
-  ┃ ┗ 📜 ... (and 10 more)
-  ┣ 📂 Altitude 2 — Initiative Craft     # 50 initiative-level product agents
-  ┃ ┣ 📜 aha_moment_definer.md
-  ┃ ┣ 📜 b2b_micro_loop_designer.md
-  ┃ ┗ 📜 ... (and dozens more)
-
-```
----
-
-## 🛠️ The Daily Workflow: From Backlog to Initiative
-
-The Orchestrator operates as a strict, deterministic state machine. It actively manages the lifecycle of your ideas, promoting them from raw feedback to validated initiatives:
-
-1. **The Intake (Drop Zone):** You drop a raw transcript, feature request, or angry support email into the 00_Intake_and_Backlog folder.
-2. **The Triage:** You ask the OS to evaluate it. The OS selects a Discovery agent (like the Opportunity Score Calculator) to quantify the actual user pain.
-3. **The Gatekeeper (Scoring):** If the pain is real, you pitch building a feature. The OS reads the scoring_matrix.md and mathematically scores your pitch from 0-10 on Delight, Defensibility, Distribution, Monetization, and Feasibility.
-4. **The Intervention:** If your idea has a fatal flaw (e.g., 4/10 Monetization), the OS blocks you from writing a PRD. It automatically routes you to a strategy framework (like the Tiering Strategy Architect) to fix the flaw.
-5. **The Checkpoint:** After you provide inputs, the OS presents a brief, bulleted summary of its assumptions. You stay in control and must approve the direction before it writes any documents.
-6. **The Promotion (Auto-Folder Creation):** Once approved, the OS physically generates the Markdown document. If it's a new feature, it automatically creates a new 02_Initiatives/[Feature_Name] folder and moves the idea out of the Backlog into the Build Zone.
-7. **The Memory:** It prompts you to log a Product Decision Record (PDR) directly into that initiative's folder so the Vault never loses the "why" behind your pivot.
 
 ---
 

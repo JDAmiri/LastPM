@@ -19,7 +19,7 @@
 
 ---
 
-## 🛡️ The Gatekeeper & The 71 Titans
+## 🛡️ The Gatekeeper & The 70+ Titans
 
 Great product leaders don't start from a blank page; they rely on mental models. 
 
@@ -27,9 +27,9 @@ The Last PM features a built-in **Gatekeeper**. When you pitch an idea, the OS m
 
 It orchestrates **71 specialized AI Titans** across three distinct altitudes:
 
-* **Altitude 2: Venture Strategy (The Macro Layer)** — 12 McKinsey/Bain/Deloitte-tier playbooks. Governed by a strict stage-gate, the OS guides you from industry trend analysis to financial unit economics. It refuses to let you plan execution until the market is proven structurally attractive.
+* **Altitude 0: Venture Strategy (The Macro Layer)** — 12 McKinsey/Bain/Deloitte-tier playbooks. Governed by a strict stage-gate, the OS guides you from industry trend analysis to financial unit economics. It refuses to let you plan execution until the market is proven structurally attractive.
 * **Altitude 1: Initiative Craft (The Execution Layer)** — 50 tactical Titans designed to protect your backlog. Natively reading your context, the OS maps Opportunity Solution Trees, designs B2B micro-loops, runs LNO prioritization, and translates hypotheses into ultra-lean PRDs.
-* **Altitude 0: Frontline Enablement (The Translation Layer)** — 9 autonomous downstream agents. The OS silently reads your approved PRDs and translates them into Sales Battlecards, Support FAQs, Change Management logs, and B2B LinkedIn launch posts—with zero hallucinations and zero administrative tax.
+* **Altitude 2: Frontline Enablement (The Translation Layer)** — 9 autonomous downstream agents. The OS silently reads your approved PRDs and translates them into Sales Battlecards, Support FAQs, Change Management logs, and B2B LinkedIn launch posts—with zero hallucinations and zero administrative tax.
 
 ---
 

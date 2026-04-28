@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Last PM | The Final Interface for High-Craft Product Strategy</title>
     
-    <meta name="description" content="Stop managing agents. Start solving problems. The only AI Product OS that guides you through the toughest strategic questions and proactively guards your product craft.">
+    <meta name="description" content="Stop letting generic AI write garbage PRDs. LastPM is a deterministic, anti-hallucination OS in your IDE—77 specialized agents, one Canvas Vault, Venture through Operational altitude. Your Synthetic Product Brain Trust.">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     
@@ -17,16 +17,16 @@
       "alternateName": "The Last PM OS: Synthetic Product Brain Trust",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Cursor IDE, Claude",
-      "description": "A deterministic AI Operating System for Enterprise Product Managers. Run 62+ specialized AI agents natively inside Cursor to draft PRDs, synthesize user interviews, and stress-test strategy without AI hallucinations.",
+      "description": "A deterministic AI Operating System for Enterprise Product Managers. Run 77 specialized AI agents natively inside Cursor to draft PRDs, synthesize user interviews, and stress-test strategy without AI hallucinations.",
       "keywords": "AI Product Management, AI PRD generator, Cursor IDE for PMs, Product Strategy AI, AI Chief of Staff, Product Sense, Customer Feedback Synthesis AI, Claude Product Management",
       "softwareVersion": "4.0.0",
       "featureList": [
-        "62+ AI Prompt Frameworks for Product Strategy",
+        "77 Specialized AI Agents for Product Strategy",
         "AI-Assisted PRD Drafting with Mandatory Human Checkpoints",
         "Customer Interview Synthesis & Pain Point Extraction",
         "Runs Natively in Cursor IDE & Claude Projects",
         "Live Tool Integration via Model Context Protocol (MCP)",
-        "Local File-Based Vault Architecture to Stop Hallucinations"
+        "Canvas Vault: Markdown-Based Context to Stop Hallucinations"
       ]
     }
     </script>
@@ -34,225 +34,225 @@
 
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
-        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #020617; color: #f8fafc; }
-        .glass { background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.08); }
-        .hero-gradient { background: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.15) 0%, transparent 50%); }
-        .bento-card { transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1); }
-        .bento-card:hover { border-color: rgba(59, 130, 246, 0.4); transform: translateY(-8px); box-shadow: 0 40px 80px -20px rgba(0, 0, 0, 0.5); }
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+        html { -webkit-font-smoothing: antialiased; }
+        body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; background-color: #09090b; color: #fafafa; }
+        .nav-surface { background: rgba(9, 9, 11, 0.72); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
+        .hero-wash {
+            background:
+                radial-gradient(ellipse 90% 60% at 50% -15%, rgba(251, 146, 60, 0.09), transparent 55%),
+                radial-gradient(ellipse 70% 45% at 80% 20%, rgba(167, 139, 250, 0.06), transparent 50%),
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 120, 120, 0.06), transparent 55%);
+        }
+        .field-surface { background: rgba(24, 24, 27, 0.55); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .hero-gradient-text {
+            color: #f4f4f5;
+            background: linear-gradient(135deg, #fafafa 0%, #e4e4e7 45%, #fdba74 95%);
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        @supports (background-clip: text) or (-webkit-background-clip: text) {
+            .hero-gradient-text { color: transparent; }
+        }
+        .tile { transition: border-color 0.15s ease, background-color 0.15s ease; }
+        .tile:hover { border-color: rgba(63, 63, 70, 0.9); background: rgba(24, 24, 27, 0.75); }
+        section[id] { scroll-margin-top: 5.5rem; }
+        @media (prefers-reduced-motion: reduce) {
+            .tile, #gallery-main { transition: none; }
+        }
+        #gallery-main.gallery-fade { opacity: 0.88; }
+        #gallery-stage { touch-action: pan-y; }
     </style>
 </head>
-<body class="selection:bg-blue-500/30">
+<body class="selection:bg-zinc-700/40">
 
-    <nav class="fixed top-0 w-full z-50 glass border-b border-white/5 px-8 py-5 flex justify-between items-center">
-        <div class="flex items-center gap-3 font-extrabold text-2xl tracking-tighter">
-            <span class="bg-blue-600 p-1.5 rounded-lg text-white font-black italic">L</span> LastPM <span class="text-xs font-normal text-slate-500 border border-white/10 rounded-full px-2 py-1 ml-2 uppercase tracking-widest">OS v4</span>
+    <nav class="fixed top-0 w-full z-50 nav-surface px-5 sm:px-10 py-4 flex justify-between items-center gap-6">
+        <a href="#" class="text-[15px] font-semibold tracking-tight text-zinc-100 hover:text-white transition-colors">LastPM</a>
+        <div class="flex items-center gap-6 sm:gap-8 text-[13px] font-medium text-zinc-500">
+            <a href="#sessions" class="hidden sm:inline hover:text-zinc-200 transition-colors">Sessions</a>
+            <a href="#how" class="hidden sm:inline hover:text-zinc-200 transition-colors">How it works</a>
+            <a href="https://github.com/JDAmiri/LastPM/blob/main/README.md" class="hover:text-zinc-200 transition-colors">Docs</a>
+            <a href="https://github.com/JDAmiri/LastPM" class="inline-flex items-center gap-1.5 rounded-full bg-zinc-100 px-3.5 py-1.5 text-zinc-900 text-[13px] font-medium hover:bg-white transition-colors shrink-0">
+                GitHub <i data-lucide="external-link" class="w-3.5 h-3.5 opacity-60"></i>
+            </a>
         </div>
-        <a href="https://github.com/JDAmiri/LastPM" class="group flex items-center gap-2 text-sm font-semibold text-slate-400 hover:text-white transition-all">
-            GitHub <i data-lucide="external-link" class="w-4 h-4 group-hover:rotate-12 transition-transform"></i>
-        </a>
     </nav>
 
-    <header class="relative pt-48 pb-32 px-6 hero-gradient overflow-hidden">
-            <h1 class="text-7xl md:text-9xl font-extrabold tracking-tighter mb-10 leading-[0.85] text-white">
-                One Prompt.<br/><span class="text-slate-500">Your Product Brain Trust.</span>
-            </h1>
-            <p class="text-2xl md:text-3xl text-slate-400 mb-14 max-w-3xl mx-auto font-light leading-relaxed">
-                Stop letting generic AI write garbage PRDs. The Last PM is a deterministic, anti-hallucination OS that lives in your IDE. It acts as your Synthetic Product Brain Trust—stress-testing your strategy, blocking bad ideas, and forcing you to build with elite product craft.
-                <span class="text-white font-semibold">The Last PM</span>—the only interface you need to run an elite product organization.
+    <header class="relative pt-32 sm:pt-40 pb-24 sm:pb-32 px-5 sm:px-6 hero-wash text-center">
+        <p class="text-[11px] font-medium uppercase tracking-[0.22em] text-zinc-500 mb-6 max-w-xl mx-auto">PM OS for Cursor &amp; Claude Code</p>
+        <h1 class="text-[2.6rem] sm:text-5xl md:text-[3.35rem] font-semibold tracking-tight mb-6 leading-[1.06] max-w-3xl mx-auto hero-gradient-text">
+            Product judgment, living in your repo.
+        </h1>
+        <p class="text-base sm:text-[1.05rem] text-zinc-400 mb-12 max-w-md mx-auto font-normal leading-relaxed">
+            <span class="text-zinc-300">77 agents</span>, one vault, zero theater—strategy that knows your files, not just your last prompt.
+        </p>
+
+        <div class="max-w-md mx-auto w-full">
+            <form action="https://formspree.io/f/mdapedoo" method="POST" class="field-surface rounded-2xl p-1.5 flex flex-col sm:flex-row gap-1.5 shadow-[0_0_0_1px_rgba(255,255,255,0.04)]">
+                <input type="email" name="email" placeholder="Your email" required class="flex-1 bg-transparent px-4 py-3.5 text-zinc-100 placeholder-zinc-600 focus:outline-none text-[15px] rounded-xl">
+                <button type="submit" class="rounded-xl bg-gradient-to-b from-orange-100 to-orange-50 text-zinc-900 font-medium py-3.5 px-6 text-[15px] hover:from-white hover:to-orange-50 transition-all shadow-sm whitespace-nowrap">Get early access</button>
+            </form>
+            <p class="mt-5 text-[13px] text-zinc-600 leading-relaxed">
+                Small onboarding cohort · or jump in on <a href="https://github.com/JDAmiri/LastPM" class="text-zinc-400 underline-offset-2 hover:underline">GitHub</a> with <code class="text-zinc-500">boot_os</code>
             </p>
-                        <div class="mt-12 max-w-xl mx-auto w-full">
-                <form action="https://formspree.io/f/mdapedoo" method="POST" class="glass p-2 rounded-2xl border border-white/10 flex flex-col sm:flex-row gap-2 shadow-2xl shadow-blue-900/20">
-                    <input 
-                        type="email" 
-                        name="email" 
-                        placeholder="Enter your work email..." 
-                        required 
-                        class="flex-1 bg-transparent px-6 py-4 text-white placeholder-slate-500 focus:outline-none text-lg"
-                    >
-                    <button 
-                        type="submit" 
-                        class="bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 px-8 rounded-xl transition-all hover:scale-105 whitespace-nowrap"
-                    >
-                        Request Access
-                    </button>
-                </form>
-                <div class="mt-5 flex items-center justify-center gap-3 text-sm text-slate-400 font-medium">
-                    <i data-lucide="lock" class="w-4 h-4 text-slate-500"></i>
-                    <p>We strictly limit cohorts to <span class="text-white font-bold">50 PMs</span> to guarantee a white-glove setup of your local IDE environment.</p>
-                </div>
-            </div>
         </div>
     </header>
 
-    <section class="max-w-7xl mx-auto px-6 py-20">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
-            
-            <div class="md:col-span-8 glass p-12 rounded-[3rem] bento-card border border-white/5 relative overflow-hidden">
-                <div class="absolute -right-20 -bottom-20 w-64 h-64 bg-blue-600/10 blur-[80px] rounded-full"></div>
-                <i data-lucide="brain-circuit" class="text-blue-500 mb-8 w-12 h-12"></i>
-                <h3 class="text-4xl font-bold mb-6">The Single Point of Strategy</h3>
-                <p class="text-slate-400 text-lg leading-relaxed">
-                    Waste zero time remembering skill names or browsing agent folders. Just state your toughest product question. The OS <span class="text-white">diagnoses your intent</span> and guides you through the rigorous logic required to solve it—from discovery to defensibility.
-                </p>
-            </div>
+    <section id="sessions" class="max-w-3xl mx-auto px-5 sm:px-6 -mt-4 sm:-mt-8 pt-2 pb-24 md:pb-32">
+        <h2 class="sr-only">Session screenshots</h2>
 
-    <section class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
-        <div class="text-center mb-16">
-            <div class="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full border border-purple-500/20 bg-purple-500/5 text-purple-400 text-sm font-bold tracking-wide uppercase">
-                v4.0 Architecture
-            </div>
-            <h2 class="text-5xl font-bold mb-6 tracking-tighter text-white">
-                The Multi-Altitude Engine
-            </h2>
-            <p class="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-                Generic AI applies the exact same logic to a $50M market pivot as it does to a UI update. The Last PM diagnoses your intent and routes it to the correct strategic jurisdiction.
-            </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            
-            <div class="glass p-12 rounded-[3rem] bento-card border border-white/5 bg-gradient-to-br from-purple-900/10 to-transparent">
-                <i data-lucide="building-2" class="text-purple-500 mb-8 w-12 h-12"></i>
-                <div class="text-xs font-mono text-purple-400 mb-3 tracking-widest uppercase font-semibold">Altitude 2</div>
-                <h3 class="text-3xl font-bold mb-4 text-white">The Venture Layer</h3>
-                <p class="text-slate-400 text-lg leading-relaxed">
-                    12 elite playbooks modeled after McKinsey, Bain, and Deloitte. When you are launching a 0-to-1 product or entering a new geography, the OS evaluates market attractiveness, capital allocation, and existential Black Swan risks.
-                </p>
-            </div>
-
-            <div class="glass p-12 rounded-[3rem] bento-card border border-white/5 bg-gradient-to-bl from-blue-900/10 to-transparent">
-                <i data-lucide="layers" class="text-blue-500 mb-8 w-12 h-12"></i>
-                <div class="text-xs font-mono text-blue-400 mb-3 tracking-widest uppercase font-semibold">Altitude 1</div>
-                <h3 class="text-3xl font-bold mb-4 text-white">The Initiative Layer</h3>
-                <p class="text-slate-400 text-lg leading-relaxed">
-                    50 tactical Titans designed to protect your backlog. When you are scoping a specific epic, the OS hits the Strategic Brakes, analyzes Helmer's 7 Powers, and mathematically scores defensibility before a single PRD is written.
-                </p>
-            </div>
-
-            <div class="md:col-span-2 glass p-12 rounded-[3rem] bento-card border border-white/5 relative overflow-hidden group">
-                <div class="absolute -right-20 -top-20 w-64 h-64 bg-green-600/10 blur-[80px] rounded-full group-hover:bg-green-500/20 transition-colors duration-700"></div>
-                <div class="flex flex-col md:flex-row gap-8 items-center">
-                    <div class="flex-1">
-                        <i data-lucide="radar" class="text-green-500 mb-8 w-12 h-12"></i>
-                        <h3 class="text-3xl font-bold mb-4 text-white">Deterministic Market Intelligence</h3>
-                        <p class="text-slate-400 text-lg leading-relaxed">
-                            AI lies because it guesses competitor revenue and market sizes. The OS features a strict <strong>Research Protocol</strong>. If a Venture agent needs external intelligence, the OS pauses and triggers autonomous web-fetch operations. Every number is tagged as <code>[VERIFIED]</code>, <code>[REPORTED]</code>, or <code>[ESTIMATED]</code>. Zero hallucinations.
-                        </p>
-                    </div>
-                    <div class="hidden md:block flex-shrink-0 w-64 p-6 bg-black/40 rounded-2xl border border-white/10 font-mono text-xs text-green-400 shadow-inner">
-                        <div class="opacity-50 mb-2">// Phase 2.5 Execution</div>
-                        > Running TAM Calculator...<br>
-                        > Data gap detected.<br>
-                        > Initiating WebFetch...<br>
-                        > SEC.gov [VERIFIED]<br>
-                        > Synthesizing...<br>
-                        <div class="text-white mt-2">> Proceeding to Phase 3.</div>
+        <div class="outline-none rounded-[1.35rem] focus-visible:ring-2 focus-visible:ring-orange-400/30 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950" id="session-gallery" tabindex="0" aria-label="Session screenshots. Swipe or use arrow keys when focused.">
+            <div class="rounded-[1.35rem] border border-zinc-800/80 bg-zinc-900/25 p-3 sm:p-5 shadow-[0_32px_64px_-24px_rgba(0,0,0,0.55)]">
+                <div id="gallery-stage" class="relative rounded-2xl border border-zinc-800/70 bg-zinc-950 overflow-hidden">
+                    <button type="button" id="gallery-prev" class="absolute left-2 sm:left-4 top-1/2 z-10 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full border border-zinc-700/70 bg-zinc-900/95 text-zinc-200 hover:bg-zinc-800/95 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400/35" aria-label="Previous slide">
+                        <i data-lucide="chevron-left" class="w-4 h-4"></i>
+                    </button>
+                    <button type="button" id="gallery-next" class="absolute right-2 sm:right-4 top-1/2 z-10 -translate-y-1/2 flex h-9 w-9 items-center justify-center rounded-full border border-zinc-700/70 bg-zinc-900/95 text-zinc-200 hover:bg-zinc-800/95 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400/35" aria-label="Next slide">
+                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </button>
+                    <div class="flex justify-center items-start px-3 sm:px-10 py-8 sm:py-10 min-h-[200px] sm:min-h-[300px] bg-zinc-950">
+                        <img id="gallery-main" src="LastPM_market_analyses.png" alt="LastPM venture session: market analysis with assumptions and benchmark cross-checks" class="max-h-[min(62vh,700px)] w-full object-contain object-top transition-opacity duration-150 rounded-lg" loading="eager" decoding="async">
                     </div>
                 </div>
-            </div>
 
-        </div>
-    </section>
-
-
-            <div class="md:col-span-4 glass p-12 rounded-[3rem] bento-card border border-white/5 bg-gradient-to-br from-red-500/5 to-transparent">
-                <i data-lucide="shield-ban" class="text-red-500 mb-8 w-12 h-12"></i>
-                <h3 class="text-3xl font-bold mb-6 italic">The Guardian Protocol</h3>
-                <p class="text-slate-400 text-lg leading-relaxed">
-                    The OS watches your back. If you pitch a "Sales Trap" or a weak integration, the system hits the **Strategic Brakes**—mathematically scoring the idea against elite defensibility matrices before you waste dev cycles.
-                </p>
-            </div>
-
-            <div class="md:col-span-5 glass p-12 rounded-[3rem] bento-card border border-white/5">
-                <i data-lucide="scale" class="text-green-500 mb-8 w-10 h-10"></i>
-                <h3 class="text-3xl font-bold mb-6 leading-tight">A Thought Partner, Not an Autopilot</h3>
-                <p class="text-slate-400 leading-relaxed">
-                    AI should not write your roadmap in a black box. The OS forces <span class="text-white">Strategic Checkpoints</span>. Before it drafts a single word of a PRD, it outputs a bulleted list of its assumptions. It challenges your logic, exposes your blind spots, and waits for your human approval. You are the architect; the OS is just the ruthless executor.
-                </p>
-            </div>
-
-            <div class="md:col-span-7 glass p-12 rounded-[3rem] bento-card border border-white/5 bg-gradient-to-tr from-blue-500/5 to-transparent">
-                <i data-lucide="lock" class="text-purple-500 mb-8 w-12 h-12"></i>
-                <h3 class="text-4xl font-bold mb-6 leading-tight">The Anti-Hallucination Vault</h3>
-                <p class="text-slate-400 text-lg leading-relaxed">
-                    Most AI lies because it tries to guess your business model. We built an <span class="text-white">Isolated Vault Architecture</span>. The AI only has read-access to the specific project data you feed it. No internet scraping. No generic "synergy" advice. If it doesn't have the data, it is programmed to stop and ask you. You trust it because you control its exact memory.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="max-w-6xl mx-auto px-6 py-40">
-        <div class="text-center mb-20">
-            <h2 class="text-5xl font-bold mb-8 italic text-white tracking-tighter">Proactive Guardianship</h2>
-            <p class="text-xl text-slate-500 italic">The OS identifying a "Sales Trap" and forcing a Defensive Moat Analysis.</p>
-        </div>
-        
-                <div class="relative max-w-5xl mx-auto group mt-10">
-            <div class="absolute -inset-1 bg-gradient-to-b from-blue-500/20 to-purple-600/20 rounded-2xl blur-xl opacity-50 group-hover:opacity-100 transition duration-1000"></div>
-            
-            <div class="relative glass rounded-2xl border border-white/10 overflow-hidden shadow-2xl bg-[#0a0f1c]">
-                <div class="h-10 bg-white/5 border-b border-white/10 flex items-center px-4 gap-2">
-                    <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
-                    <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
-                    <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
-                    <span class="ml-4 text-xs text-slate-500 font-mono">Cursor - The_Last_PM_Workspace</span>
-                </div>
-                
-                <img src="https://jdamiri.github.io/LastPM/IMG_6126.png" 
-                     loading="lazy"
-                     class="w-full h-auto opacity-95" 
-                     alt="The Last PM Guardian Mode in Cursor">
-            </div>
-        </div
-        
-    </section>
-
-        <section class="max-w-6xl mx-auto px-6 py-20">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="glass p-8 rounded-[2rem] border border-white/5 flex flex-col justify-between hover:border-blue-500/30 transition-colors">
-                <div>
-                    <h4 class="text-xl text-blue-400 font-bold italic mb-3">Fatal Flaws Caught</h4>
-                    <p class="text-slate-400 text-sm leading-relaxed">Weak monetization or "Sales Traps" blocked before Dev cycles are wasted.</p>
-                </div>
-                <div class="mt-8 pt-6 border-t border-white/10">
-                    <span class="text-5xl font-extrabold text-white block tracking-tighter">100%</span>
-                    <span class="text-sm text-slate-500 font-bold tracking-widest uppercase mt-2 block">Guardian Protocol</span>
-                </div>
-            </div>
-
-            <div class="glass p-8 rounded-[2rem] border border-white/5 flex flex-col justify-between hover:border-blue-500/30 transition-colors">
-                <div>
-                    <h4 class="text-xl text-blue-400 font-bold italic mb-3">Time-to-Insight</h4>
-                    <p class="text-slate-400 text-sm leading-relaxed">Extracting the core friction from 10 raw customer transcripts.</p>
-                </div>
-                <div class="mt-8 pt-6 border-t border-white/10">
-                    <span class="text-5xl font-extrabold text-white block tracking-tighter">< 45s</span>
-                    <span class="text-sm text-slate-500 font-bold tracking-widest uppercase mt-2 block">Deterministic Logic</span>
-                </div>
-            </div>
-
-            <div class="glass p-8 rounded-[2rem] border border-white/5 flex flex-col justify-between hover:border-blue-500/30 transition-colors">
-                <div>
-                    <h4 class="text-xl text-blue-400 font-bold italic mb-3">The Administrative Tax</h4>
-                    <p class="text-slate-400 text-sm leading-relaxed">Formatting PRDs, translating Jira tickets, and building status decks.</p>
-                </div>
-                <div class="mt-8 pt-6 border-t border-white/10">
-                    <span class="text-5xl font-extrabold text-white block tracking-tighter">0 Hrs</span>
-                    <span class="text-sm text-green-400 font-bold tracking-widest uppercase mt-2 block">Fully Automated</span>
+                <div class="mt-8 px-1 sm:px-2">
+                    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2 mb-3 text-[13px]">
+                        <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-zinc-500">
+                            <span id="gallery-context">Claude Code · Venture</span>
+                            <span class="text-zinc-700" aria-hidden="true">·</span>
+                            <span id="gallery-badge" class="text-zinc-400 font-medium">Venture</span>
+                        </div>
+                        <span id="gallery-counter" class="tabular-nums text-zinc-600">1 / 7</span>
+                    </div>
+                    <h3 id="gallery-title" class="text-[17px] font-medium text-zinc-100 tracking-tight mb-2">Market sizing with explicit assumptions</h3>
+                    <p id="gallery-desc" class="text-zinc-500 text-[15px] leading-relaxed">Benchmarks and confidence called out; the handoff is a testable hypothesis—not a slide of false precision.</p>
                 </div>
             </div>
         </div>
     </section>
-    
-    <footer class="py-32 text-center">
-        <p class="text-slate-500 tracking-[0.3em] uppercase text-[10px] mb-6">The Last PM — The Final Product Management Interface</p>
-        <div class="flex justify-center gap-12 font-semibold text-slate-400 text-sm">
-            <a href="https://github.com/JDAmiri/LastPM" class="hover:text-blue-500 transition-colors">Repository</a>
-            <a href= "https://github.com/JDAmiri/LastPM/README.md " class="hover:text-blue-500 transition-colors">Documentation</a>
+
+    <section id="how" class="max-w-5xl mx-auto px-5 sm:px-6 pb-24 md:pb-32 border-t border-zinc-800/80 pt-16 md:pt-20">
+        <h2 class="text-center text-2xl sm:text-[1.65rem] font-semibold text-zinc-100 tracking-tight mb-3">How it works</h2>
+        <p class="text-center text-zinc-500 text-[15px] max-w-md mx-auto mb-12">Four ideas. Everything else lives in the repo and docs.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+            <div class="tile rounded-2xl border border-zinc-800/90 bg-zinc-900/30 p-6 md:p-7">
+                <div class="flex items-center gap-3 mb-3">
+                    <i data-lucide="lock" class="w-5 h-5 text-orange-200/55 shrink-0"></i>
+                    <h3 class="text-[15px] font-medium text-zinc-100">Canvas Vault</h3>
+                </div>
+                <p class="text-zinc-500 text-[15px] leading-relaxed">Context lives in markdown in your repo—not a chat thread. The orchestrator reads before it writes.</p>
+            </div>
+            <div class="tile rounded-2xl border border-zinc-800/90 bg-zinc-900/30 p-6 md:p-7">
+                <div class="flex items-center gap-3 mb-3">
+                    <i data-lucide="brain-circuit" class="w-5 h-5 text-violet-300/50 shrink-0"></i>
+                    <h3 class="text-[15px] font-medium text-zinc-100">77 agents, one router</h3>
+                </div>
+                <p class="text-zinc-500 text-[15px] leading-relaxed">State the problem; intent routing picks the specialist. Cursor, Claude CLI, MCP when the web matters.</p>
+            </div>
+            <div class="tile rounded-2xl border border-zinc-800/90 bg-zinc-900/30 p-6 md:p-7">
+                <div class="flex items-center gap-3 mb-3">
+                    <i data-lucide="radar" class="w-5 h-5 text-orange-200/55 shrink-0"></i>
+                    <h3 class="text-[15px] font-medium text-zinc-100">Research protocol</h3>
+                </div>
+                <p class="text-zinc-500 text-[15px] leading-relaxed">Facts carry <code class="text-zinc-400 text-xs">[VERIFIED]</code> / <code class="text-zinc-400 text-xs">[ESTIMATED]</code>—so you know what you&apos;re standing on.</p>
+            </div>
+            <div class="tile rounded-2xl border border-zinc-800/90 bg-zinc-900/30 p-6 md:p-7">
+                <div class="flex items-center gap-3 mb-3">
+                    <i data-lucide="shield-ban" class="w-5 h-5 text-violet-300/50 shrink-0"></i>
+                    <h3 class="text-[15px] font-medium text-zinc-100">Strategic brakes</h3>
+                </div>
+                <p class="text-zinc-500 text-[15px] leading-relaxed">Weak bets and shallow moats get challenged before engineering commits.</p>
+            </div>
+        </div>
+
+        <p class="text-center text-zinc-500 text-[15px] max-w-2xl mx-auto mt-14 leading-relaxed">
+            From board-ready strategy to PRDs, opportunity trees, and launch comms—outputs land in your vault across <span class="text-zinc-300">Venture</span>, <span class="text-zinc-300">Initiative</span>, and <span class="text-zinc-300">Operational</span> work.
+        </p>
+        <p class="text-center mt-6">
+            <a href="https://github.com/JDAmiri/LastPM/blob/main/claude/rules/agent_registry.md" class="inline-flex items-center gap-2 text-[15px] font-medium text-zinc-400 hover:text-zinc-200 transition-colors">
+                Example outputs &amp; full agent catalog <i data-lucide="arrow-right" class="w-4 h-4 opacity-70"></i>
+            </a>
+        </p>
+    </section>
+
+    <footer class="py-16 md:py-24 text-center px-5 sm:px-6 border-t border-zinc-800/80">
+        <p class="text-zinc-100 text-base md:text-lg font-medium tracking-tight mb-2">Clone the repo. Boot the OS. Let&apos;s build.</p>
+        <p class="text-zinc-600 tracking-[0.2em] uppercase text-[10px] mb-6">The Last PM · OS v4 · high-craft PM in your IDE</p>
+        <p class="text-zinc-500 text-[15px] max-w-md mx-auto mb-8 leading-relaxed">
+            Open source &amp; self-hosted: wire <code class="text-zinc-400">LastPM.md</code> or <code class="text-zinc-400">CLAUDE.md</code>. Cohort access is optional onboarding.
+        </p>
+        <div class="flex flex-wrap justify-center gap-6 md:gap-10 font-medium text-zinc-500 text-[15px]">
+            <a href="https://github.com/JDAmiri/LastPM" class="hover:text-zinc-200 transition-colors">GitHub</a>
+            <a href="https://github.com/JDAmiri/LastPM/blob/main/README.md" class="hover:text-zinc-200 transition-colors">README</a>
+            <a href="https://github.com/JDAmiri/LastPM/blob/main/claude/rules/agent_registry.md" class="hover:text-zinc-200 transition-colors">Agents</a>
         </div>
     </footer>
 
-    <script>lucide.createIcons();</script>
+    <script>
+    (function () {
+        var slides = [
+            { src: 'LastPM_market_analyses.png', context: 'Claude Code · Venture', badge: 'Venture', title: 'Market sizing with explicit assumptions', desc: 'Benchmarks and confidence called out; the handoff is a testable hypothesis—not a slide of false precision.', alt: 'LastPM venture session: market analysis with assumptions and benchmark cross-checks' },
+            { src: 'LastPM_product_vault_update.png', context: 'Claude Code · Vault', badge: 'Vault', title: 'Diffs you can review', desc: 'Canvas markdown updates stay in git-shaped paths—you approve before they become memory for the next agent.', alt: 'LastPM applying a diff to vault markdown: product canvas update' },
+            { src: 'LastPM_scoring_matrix_monetization_low.png', context: 'Claude Code · Initiative', badge: 'Initiative', title: 'Pushback while scope is cheap', desc: 'Scoring surfaces weak monetization and motion risk before engineering inherits a polished wrong bet.', alt: 'LastPM initiative session: scoring matrix and strategic pushback on monetization' },
+            { src: 'LastPM_social_media_post.png', context: 'Cursor · Composer', badge: 'Operational', title: 'Ship drafts from vault context', desc: 'GTM copy grounded in company and product files—not a generic viral template.', alt: 'LastPM in Cursor: drafting social copy from repo context' },
+            { src: 'LastPM_cursor_IDE.png', context: 'Cursor · IDE', badge: 'Surface', title: 'Where many PMs live', desc: 'Composer and file tree share one workspace with your vault—no copy-paste between tools.', alt: 'LastPM workspace in Cursor IDE' },
+            { src: 'LastPM_claude_CLI.png', context: 'Claude Code · CLI', badge: 'Surface', title: 'Same OS from the terminal', desc: 'For heads-down runs: orchestration and file access without leaving the shell.', alt: 'LastPM session in Claude Code terminal' },
+            { src: 'LastPM_initial_product_canvas.png', context: 'Repository · Layout', badge: 'Vault', title: 'Markdown as system of record', desc: 'Global context and product workspace folders—structured for agents and humans alike.', alt: 'LastPM vault folder structure and product canvas' }
+        ];
+
+        var main = document.getElementById('gallery-main');
+        var ctxEl = document.getElementById('gallery-context');
+        var badgeEl = document.getElementById('gallery-badge');
+        var counterEl = document.getElementById('gallery-counter');
+        var titleEl = document.getElementById('gallery-title');
+        var descEl = document.getElementById('gallery-desc');
+        var stage = document.getElementById('gallery-stage');
+        var prevBtn = document.getElementById('gallery-prev');
+        var nextBtn = document.getElementById('gallery-next');
+        var idx = 0;
+        var reduceMotion = typeof matchMedia !== 'undefined' && matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var touchStartX = null;
+
+        function go(i) {
+            idx = (i + slides.length) % slides.length;
+            var s = slides[idx];
+            main.classList.add('gallery-fade');
+            setTimeout(function () {
+                main.src = s.src;
+                main.alt = s.alt;
+                ctxEl.textContent = s.context;
+                badgeEl.textContent = s.badge;
+                badgeEl.className = 'text-zinc-400 font-medium';
+                titleEl.textContent = s.title;
+                descEl.textContent = s.desc;
+                if (counterEl) counterEl.textContent = (idx + 1) + ' / ' + slides.length;
+                main.classList.remove('gallery-fade');
+            }, reduceMotion ? 0 : 90);
+        }
+
+        if (prevBtn) prevBtn.addEventListener('click', function () { go(idx - 1); });
+        if (nextBtn) nextBtn.addEventListener('click', function () { go(idx + 1); });
+
+        document.getElementById('session-gallery').addEventListener('keydown', function (e) {
+            if (e.key === 'ArrowLeft') { e.preventDefault(); go(idx - 1); }
+            if (e.key === 'ArrowRight') { e.preventDefault(); go(idx + 1); }
+        });
+
+        if (stage) {
+            stage.addEventListener('touchstart', function (e) {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+            stage.addEventListener('touchend', function (e) {
+                if (touchStartX == null) return;
+                var dx = e.changedTouches[0].screenX - touchStartX;
+                touchStartX = null;
+                if (dx < -48) go(idx + 1);
+                else if (dx > 48) go(idx - 1);
+            }, { passive: true });
+        }
+
+    })();
+    lucide.createIcons();
+    </script>
 </body>
 </html>

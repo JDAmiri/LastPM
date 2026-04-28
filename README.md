@@ -1,6 +1,41 @@
-# The Last PM OS
+# LastPM: The Final Interface for High-Craft Product Strategy
 
-An elite product management operating system with 77 framework agents, built for both Cursor IDE and Claude Code CLI.
+> "Stop letting generic AI write garbage PRDs. The LastPM is a deterministic, anti-hallucination OS that lives in your IDE. It acts as your Synthetic Product Brain Trust—stress-testing your strategy, blocking bad ideas, and forcing you to build with elite product craft."
+
+## The Velocity Trap and the Feature Factory
+
+Today’s product managers are expected to be full-stack. You are asked to discover venture-scale business lines on Monday, scope feature-level initiatives on Wednesday, and drive ground-level operational launches by Friday.
+
+But instead of doing deep strategic work, we are buried in alignment overhead—translating context into Linear or Jira, syncing with engineering, and wrestling generic chatbots to understand our constraints. Worse, the modern product cadence demands we ship daily or weekly. The new trap isn't moving too slow; it's shipping the wrong things at breakneck speed.
+
+Generic AI hasn't fixed this—it just generates faster boilerplate. It hallucinates solutions, blindly validates your weakest ideas, and forgets your entire architecture the moment you close the tab.
+
+## The Vision: One Agent. Infinite Context.
+
+You don't need a messy swarm of fragmented AI personas, and you don't need to write the perfect prompt from scratch every day. You need The **LastPM** — a singular, autonomous Chief of Staff.
+
+LastPM replaces amnesic chat windows with a stateful, markdown-based **Canvas Vault**. Before it ever drafts a spec, it silently reads your live repository—your business model, your growth metrics, and your technical constraints. It doesn't guess. It audits, challenges, and synthesizes across every level of product work:
+
+* **End-to-End Altitude:** LastPM dynamically shifts context based on what you are building. It operates seamlessly across the **Venture** level (zero-to-one discovery), the **Initiative** level (scaling core product features), and the **Operational** level (tactical shipping and launch mechanics).
+
+* **Deterministic Research:** At the venture level, hallucinations kill products. LastPM is explicitly instructed to ground its research in verified facts. If hard data doesn't exist, it utilizes industry reports and estimates—but strictly labels them as unverified assumptions. No guessing disguised as truth.
+
+* **It Pushes Back:** If you try to define a feature without a clear retention loop or acquisition channel, The Last PM will flag the gap. It acts as a forcing function to ship fast, but ship the right thing.
+
+* **Unbroken Context:** The files are the memory. Your product’s true state lives in version-controlled markdown, instantly readable and updateable by your Agent.
+
+## The Architecture of High Leverage
+
+The Last PM is the only interface you need to run an elite product organization. Build where you think, deploying exactly how your engineering culture demands:
+
+* **The IDE Integration:** Run LastPM directly in Cursor. Connect your product strategy straight to your codebase to create the ultimate Strategy-to-Code pipeline.
+
+* **The Terminal CLI:** For the technical PM. Use Claude Code with local file-reading capabilities to orchestrate your Canvas Vault autonomously from the command line.
+
+* **Sovereign Offline Mode:** Deploy completely disconnected. Run quantized edge models locally in your Mac's RAM for absolute privacy and zero-cost strategy loops.
+
+Gain the leverage to operate at every altitude. Escapce the velocity trap. Focus on building with exceptional taste.
+
 
 ---
 
@@ -83,3 +118,7 @@ These are never committed. Back them up separately (e.g., a private repo, iCloud
 3. Add the intent keywords and action tag to `.claude/rules/intent_dictionary.md`.
 
 That is the complete workflow — single source of truth, no duplication.
+
+---
+
+**Clone the repo. Boot the OS. Let's build.**
